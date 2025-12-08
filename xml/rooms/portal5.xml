@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="12" name="Taxistand">
+    <desc>Der Taxistand vor dem Bahnhof ist voller Taxifahrer, die geduldig auf neue Kunden warten.
+        Einer der Fahrer nutzt die Wartezeit und poliert gewissenhaft die Motorhaube seines Fahrzeugs.
+        Er scheint entschlossen, den besten Eindruck zu machen.|Im Osten geht es zum Vorplatz.
+    </desc>
+    <exits>
+        <exit room="vorplatz">o</exit>
+    </exits>
+    <items>
+        <item>33</item>
+    </items>
+    <operations>
+        <operation command="9" item="33" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Der ist zwar kein Riese, aber du auch nicht. Keine gute Idee!
+        </operation>
+        <operation command="13" item="33" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">'Wou fei soll's hiegäh?' - Er guckt dich erwartungsvoll an, du guckst verwirrt zurück!
+        </operation>
+        <operation command="15" item="29" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="33" remove_both="" portal_to="">'Des musst d fei erscht eintausch!'
+        </operation>
+        <operation command="15" item="31" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="33" remove_both="" portal_to="6">'Oh, a Guutschein! Na dann, ab gehds!' - Soll wohl heißen, es geht los! Du nennst ihm Christians Adresse!
+        </operation>
+
+    </operations>
+</room>

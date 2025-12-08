@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="6" name="Jollystraße">
+    <desc>Du befindest dich auf der Jollystraße. Die Straßenbahn rumpelt hier entlang, flankiert durch zahlreiche Bäume.
+        Ohne Geld oder ein funktionierendes Handy bleibt dir keine andere Wahl, als den Weg wohl oder übel zu Fuß zurückzulegen.
+        Trotz des verheißungsvollen Straßennamens fühlt sich die Situation überhaupt nicht jolly an.|
+        Im Nordwesten liegt die Baustelle, Richtung Südosten geht es zum Bahnhof.
+    </desc>
+    <exits>
+        <exit room="portal2">nw</exit>
+        <exit room="bahnhof">so</exit>
+    </exits>
+</room>

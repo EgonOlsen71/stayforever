@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="3" name="Bachstraße">
+    <desc>Du stehst vor der Bachstraße 49. Die von Osten nach Westen verlaufende Straße wird gesäumt von einer monotonen Reihe drei- bis vierstöckiger Häuser.
+        Überall parken Autos, dicht an dicht. Aber du hast ohnehin kein Auto, also kann dir das egal sein.|In die hier wachsenden Bäume scheinen sich tatsächlich ein paar Vögel verirrt zu haben|
+        Ein paar Straßen weiter im Norden liegt ein Spielplatz. Im Süden ist der Hauseingang. Weiter im Westen liegt die Innenstadt von Karlsruhe, im Osten ist der Hafen.
+    </desc>
+    <exits>
+        <exit room="bruecke" locked="1">o</exit>
+        <exit room="flur">s</exit>
+        <exit room="spielplatz">n</exit>
+    </exits>
+    <items>
+        <item>13</item>
+        <item>14</item>
+    </items>
+    <operations>
+        <operation command="9" item="14" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">*KLONK* - Nichts passiert!
+        </operation>
+        <operation command="12" item="14" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Dort hast du dein Fahrrad heute abgestellt. Leider hat deine Frau versehentlich den Schlüssel mitgenommen!
+        </operation>
+        <operation command="7" item="14" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du ziehst und zerrst am Griff, aber die Fahrradgarage bleibt zu.
+        </operation>
+        <operation command="8" item="14" unique="1" remove_inv="9" remove_room="" add_room="16" add_inv="" unlock=""
+                   with_item="9" remove_both="" portal_to="">Der Schlüssel passt nicht richtig, aber es reicht, um die Tür zu öffnen. Auch wenn er dabei abbricht - Hoppla! Du ziehst das Fahrrad heraus, die Tür fällt wieder zu.
+        </operation>
+        <operation command="12" item="16" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Das ist dein treues Lastenrad, Modell 'City-Traktor 3000'!
+        </operation>
+        <operation command="8" item="16" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="2">Du schwingst dich auf dein Fahrrad und radelst Richtung Innenstadt!
+        </operation>
+    </operations>
+</room>

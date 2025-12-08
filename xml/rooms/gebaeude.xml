@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="8" name="Schalterhalle">
+    <desc>Der optische Kontrast zwischen der hellen, modernen Schalterhalle und dem tristen Äußeren des Bahnhofes ist bemerkenswert.
+        Auch hier herrscht reges Treiben, laute Durchsagen mischen sich mit dem Gemurmel der Reisenden.
+        Neben dem Fahrkartenautomaten hängen die Fahrpläne aus.|
+        Und wenn man weiß, zu welchem Gleis man möchte, dann kommt man von hier auf kurzem Weg dorthin.
+        Nördlich führt der Ausgang zurück auf den Vorplatz.
+    </desc>
+    <exits>
+        <exit room="bahnhof">n</exit>
+        <exit room="portal3" locked="1">sw</exit>
+    </exits>
+    <items>
+        <item>23</item>
+        <item>24</item>
+    </items>
+    <operations>
+        <operation command="12" item="23" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Hier kann man Fahrkarten kaufen, sofern man Geld dafür hat!
+        </operation>
+        <operation command="9" item="23" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du behandelst den Automaten, so wie er es verdient aber er ignoriert deine sinnlose Gewalt!
+        </operation>
+        <operation command="8" item="23" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du wählst Nürnberg als Ziel, aber die wollen tatsächlich Geld für die Karte haben! Hallo? Für Nürnberg? Du drückst erbost auf 'Abbrechen'!
+        </operation>
+        <operation command="13" item="23" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du flehst den Automaten an, dir eine Fahrkarte zu verkaufen. Zwecklos! Das ist schon ein bisschen peinlich!
+        </operation>
+        <operation command="12" item="24" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Der Plan zeigt die Abfahrtszeiten der Züge an. Mit etwas Glück stimmen die vielleicht sogar!
+        </operation>
+        <operation command="14" item="24" unique="1" remove_inv="" remove_room="" add_room="" add_inv="" unlock="sw"
+                   with_item="" remove_both="" portal_to="">Der Zug nach Nürnberg fährt von Gleis 12, jetzt musst du nicht mehr ziellos durch den Bahnhof irren!
+        </operation>
+    </operations>
+</room>

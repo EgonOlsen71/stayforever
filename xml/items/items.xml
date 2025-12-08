@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<items>
+    <item id="0" inventory="0">
+        <name>Tisch</name>
+        <desc>Ein schlichter Büroschreibtisch</desc>
+    </item>
+    <item id="1" inventory="1">
+        <name>Handy</name>
+        <desc>Dein Handy. Leider ist der Akku leer!</desc>
+    </item>
+    <item id="2" inventory="0">
+        <name>Schublade</name>
+        <desc>Eine Schreibtischschublade. Sie ist nicht verschlossen!</desc>
+    </item>
+    <item id="3" inventory="1">
+        <name>Gamestar</name>
+        <desc>Es ist die Gamestar 11/2004</desc>
+    </item>
+    <item id="4" inventory="0">
+        <name>Computer</name>
+        <desc>Ein Computer, ausgestattet für die Aufnahme von Podcasts!</desc>
+    </item>
+    <item id="5" inventory="0">
+        <name>Regal</name>
+        <desc>Ein schlichtes Regal von einer schwedischen Möbelkette!</desc>
+    </item>
+    <item id="6" inventory="0">
+        <name>Behaelter</name>
+        <desc>Eine Art Kunststoffbehälter, der ganz oben auf dem Regal liegt.</desc>
+    </item>
+    <item id="7" inventory="1">
+        <name>Spiel</name>
+        <desc>Eine Bigbox von Earth 2160. Die haben da wirklich einen Bewegungsmelder mit LED eingebaut. Verrückt!</desc>
+    </item>
+    <item id="8" inventory="1">
+        <name>Besen</name>
+        <desc>Einfach ein Besen!</desc>
+    </item>
+    <item id="9" inventory="1">
+        <name>Schlüssel</name>
+        <desc>Der kleine Schlüssel einer Diskettenbox!</desc>
+    </item>
+    <item id="10" inventory="1">
+        <name>Sticker</name>
+        <desc>Ein runder Aufkleber!</desc>
+    </item>
+    <item id="10" inventory="1">
+        <name>Sticker</name>
+        <desc>Ein runder Aufkleber!</desc>
+    </item>
+    <item id="11" inventory="0">
+        <name>Poster</name>
+        <desc>Ein Spieleposter!</desc>
+    </item>
+    <item id="12" inventory="0">
+        <name>Schrank</name>
+        <desc>Ein schmaler Blechschrank!</desc>
+    </item>
+    <item id="13" inventory="1">
+        <name>Paket</name>
+        <desc>Ein an die Stay Forever GmbH adressiertes Paket!</desc>
+    </item>
+    <item id="14" inventory="0">
+        <name>Garage</name>
+        <desc>Eine hölzerne Fahrradgarage!</desc>
+    </item>
+    <item id="15" inventory="1">
+        <name>Controller</name>
+        <desc>Ein PayStation-Controller. Neumodisches Zeug!</desc>
+    </item>
+    <item id="16" inventory="0">
+        <name>Fahrrad</name>
+        <desc>Dein Lastenrad. Der SUV unter den Fahrrädern!</desc>
+    </item>
+    <item id="17" inventory="0">
+        <name>Arbeiter</name>
+        <desc>Die Arbeiter arbeiten fleißig. Leider versperren sie dir den Weg!</desc>
+    </item>
+    <item id="18" inventory="0">
+        <name>Laterne</name>
+        <desc>Eine Straßenlaterne, die über und über mit Stickern beklebt ist!</desc>
+    </item>
+    <item id="19" inventory="0">
+        <name>Fans</name>
+        <desc>Die Arbeiter haben sich als KSC-Fans geoutet und gucken dich erbost an!</desc>
+    </item>
+    <item id="20" inventory="1">
+        <name>Ball</name>
+        <desc>Ein Fußball mit Unterschriften der Mannschaft des KSC!</desc>
+    </item>
+    <item id="21" inventory="0">
+        <name>Junge</name>
+        <desc>Der Junge spielt gelangweilt mit einem Ball und murmelt vor sich hin! 'Die Technik ist so broken, Digga!'</desc>
+    </item>
+    <item id="22" inventory="1">
+        <name>Stift</name>
+        <desc>Ein wasserfester Stift!</desc>
+    </item>
+    <item id="23" inventory="0">
+        <name>Automat</name>
+        <desc>Ein Fahrkartenautomat, der Fahrkarten gegen Bar- oder Kartenzahlung ausspuckt!</desc>
+    </item>
+    <item id="24" inventory="0">
+        <name>Fahrplan</name>
+        <desc>Ein Fahrplan mit den Abfahrtszeiten der Züge!</desc>
+    </item>
+    <item id="25" inventory="0">
+        <name>Schaffner</name>
+        <desc>Der Schaffner kontrolliert alle Reisenden, bevor sie den Zug betreten dürfen!</desc>
+    </item>
+    <item id="26" inventory="0">
+        <name>Zug</name>
+        <desc>Ein ICE modernster Bauart!</desc>
+    </item>
+    <item id="27" inventory="0">
+        <name>Muell</name>
+        <desc>Einfach irgendein Müll, hauptsächlich Papier!</desc>
+    </item>
+    <item id="28" inventory="1">
+        <name>Los</name>
+        <desc>Ein unbenutztes Rubbellos der Lotterie 'Nürnberger Rostbrätel-Rubbler'!</desc>
+    </item>
+    <item id="29" inventory="1">
+        <name>Gewinnlos</name>
+        <desc>Das Los ist aufgerubbelt und da steht was von einem Gutschein!</desc>
+    </item>
+    <item id="30" inventory="0">
+        <name>Verkaeuferin</name>
+        <desc>Vermutlich eine Studentin. Sie kaut gelangweilt auf einem Kaugummi herum!</desc>
+    </item>
+    <item id="31" inventory="1">
+        <name>Gutschein</name>
+        <desc>Ein Gutschein für kostenlose Taxifahrten in Nürnberg. Gar nicht übel!</desc>
+    </item>
+    <item id="32" inventory="1">
+        <name>Muenze</name>
+        <desc>Eine einfache kleine Münze, vermutlich rumänisch!</desc>
+    </item>
+    <item id="33" inventory="0">
+        <name>Fahrer</name>
+        <desc>Er poliert die Motorhaube und lächelt dabei. Er scheint Spaß an seinem Job zu haben!</desc>
+    </item>
+    <item id="34" inventory="0">
+        <name>Tuer</name>
+        <desc>Eine solide Haustür. Ohne Schlüssel läuft da gar nichts!</desc>
+    </item>
+    <item id="35" inventory="0">
+        <name>Klingel</name>
+        <desc>Eine normale Türklingel!</desc>
+    </item>
+    <item id="36" inventory="1">
+        <name>Brechstange</name>
+        <desc>Im Prinzip wie die in Half Life! Nur in alt und rostig!</desc>
+    </item>
+    <item id="37" inventory="0">
+        <name>Mario</name>
+        <desc>Offenbar ein dicker, italienischer Klemper. Nur eben aus Stein!</desc>
+    </item>
+    <item id="38" inventory="0">
+        <name>Tentakel</name>
+        <desc>Sieht aus das Tentakel aus Maniac Mansion!</desc>
+    </item>
+    <item id="39" inventory="1">
+        <name>Ersatzschluessel</name>
+        <desc>Das ist der Türschlüssel zu Christians Haustür!</desc>
+    </item>
+    <item id="40" inventory="0">
+        <name>Fenster</name>
+        <desc>Ein großes Fenster ohne Gardinen davor!</desc>
+    </item>
+    <item id="41" inventory="0">
+        <name>Anzug</name>
+        <desc>Er ist grau und orange und sieht ganz schön schwer aus. Er scheint an der Wand festgemacht zu sein!</desc>
+    </item>
+    <item id="42" inventory="1">
+        <name>Dose</name>
+        <desc>Eine Sprühdose, aber total verdreckt. Man kann nicht lesen, was drin ist!</desc>
+    </item>
+
+    <operation command="8" item="1" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Du tippst auf dem Display herum, obwohl der Akku offensichtlich leer ist. Ein trauriges Bild!
+    </operation>
+
+    <operation command="12" item="1" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Der Akku ist leer und ein Ladekabel hast du nicht dabei. So ist es nutzlos!
+    </operation>
+
+    <operation command="14" item="3" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Dies ist die erste Ausgabe von dir als Chefredakteur. Auf dem Cover sind Rome, Dawn of War und Quake 4 erwähnt!
+    </operation>
+
+    <operation command="12" item="3" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Die Ausgabe 11/2004 war die erste Ausgabe mit dir als Chefredakteur!
+    </operation>
+
+    <operation command="12" item="7" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">In die Packung sind eine LED und ein Bewegungsmelder eingebaut. Bei Bewegung leuchtet die LED in einem hellen Blau!
+    </operation>
+
+    <operation command="7" item="7" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Die Earth 2160-Packung ist leer!
+    </operation>
+
+    <operation command="14" item="7" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">'Die Zukunft der Menschheit beginnt nach dem Ende Welt' - Na, wenn die meinen!
+    </operation>
+
+    <operation command="14" item="10" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">'96' - sonst steht nichts weiter drauf!
+    </operation>
+
+    <operation command="12" item="10" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Das ist ein Fanaufkleber von Hannover 96!
+    </operation>
+
+    <operation command="14" item="13" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">An: Stay Forever GmbH, Bachstr. 49, 76185 Karlsruhe - Von: Zony Entertainment
+    </operation>
+
+    <operation command="12" item="13" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Das Paket ist für euch. Warum es vor der Tür lag, weiß wohl nur der Paketbote.
+    </operation>
+
+    <operation command="7" item="13" unique="1" remove_inv="13" remove_room="" add_room="" add_inv="15" unlock=""
+               with_item="" remove_both="" portal_to="">Im Paket liegt ein PayStation-Controller. Das ist wohl ein kostenloses Testexemplar von Zony für euch.
+    </operation>
+
+    <operation command="12" item="15" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Der Controller hat etwa 30 Buttons - also ganz normal!
+    </operation>
+
+    <operation command="14" item="20" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Du liest lauter Namen, die dir nichts sagen. Oder die du erst gar nicht lesen kannst!
+    </operation>
+
+    <operation command="12" item="20" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Auf diesem Ball hat die Mannschaft des KSC unterschrieben. Für Fans ist der bestimmt wertvoll!
+    </operation>
+
+    <operation command="12" item="22" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Ein wasserfester Stift, der auf so gut wie allem schreiben kann!
+    </operation>
+
+    <operation command="8" item="22" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Du probierst den Stift auf deiner Hand aus - ja, schreibt noch!
+    </operation>
+
+    <operation command="12" item="28" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Das Los ist unbenutzt. Es gibt Geld- und Sachpreise zu gewinnen!
+    </operation>
+
+    <operation command="14" item="28" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Nürnberger Rostbrätel-Rubbler - Rubbeln um die Wurst!
+    </operation>
+
+    <operation command="8" item="28" unique="1" remove_inv="28" remove_room="" add_room="" add_inv="29" unlock=""
+               with_item="32" remove_both="" portal_to="">Du rubbelst das Los frei - du hast nun ein Gewinnlos für irgendeinen Gutschein!
+    </operation>
+
+    <operation command="12" item="29" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Mit diesem Los bekommst du einen Gutschein, wenn du es irgendwo einlösen kannst!
+    </operation>
+
+    <operation command="14" item="29" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Da steht 'Freie Fahrt für freie Rubbler' - Was soll das denn heißen?
+    </operation>
+
+    <operation command="14" item="32" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">'5 Bani' steht drauf. Was die wohl wert ist?
+    </operation>
+
+    <operation command="14" item="31" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">'Gutschein für Taxifahrten, eine Woche unbegrenzt in Nürnberg gültig!'
+    </operation>
+
+    <operation command="8" item="42" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Besser nicht, solange du nicht weißt, was da drin ist!
+    </operation>
+
+    <operation command="8" item="42" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Das ist eine Sprühdose. Die kannst du nicht öffnen!
+    </operation>
+
+</items>

@@ -1,0 +1,55 @@
+o
+s
+tritt schrank
+nimm besen
+n
+nimm sticker
+w
+untersuche tisch
+oeffne schublade
+untersuche regal
+benutze besen mit behaelter
+nimm alles
+o
+n
+nimm paket
+oeffne paket
+benutze schluessel mit garage
+n
+gib dem jungen den controller
+nimm ball
+s
+benutze fahrrad
+benutze sticker an laterne
+gib den ball den fans
+so
+so
+nimm stift
+nimm muenze
+s
+lies fahrplan
+sw
+gib dem schaffner die gamestar
+benutze zug
+benutze besen mit muell
+untersuche muell
+benutze muenze mit los
+nw
+gib verkaeuferin das gewinnlos
+w
+gib fahrer den gutschein
+no
+no
+n
+untersuche anzug
+nimm brechstange
+s
+sw
+w
+benutze brechstange an tentakel
+
+
+
+
+
+

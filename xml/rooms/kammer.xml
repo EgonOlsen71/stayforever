@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="2" name="Abstellkammer">
+    <desc>Die Abstellkammer wird von einer trüben Energiesparlampe spärlich erleuchtet. Hier stapeln sich leere Kartons und andere Dinge, die dringend mal jemand zum Wertstoffhof bringen müsste.|
+        Nach Norden geht es zurück auf den Flur.
+    </desc>
+    <exits>
+        <exit room="flur">n</exit>
+    </exits>
+    <items>
+        <item>12</item>
+    </items>
+    <operations>
+        <operation command="12" item="12" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Ein hässlicher, grauer Blechschrank. Die Tür scheint verklemmt zu sein!
+        </operation>
+        <operation command="7" item="12" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du versuchst, die Tür zu öffnen aber sie ist verklemmt!
+        </operation>
+        <operation command="9" item="12" unique="1" remove_inv="" remove_room="" add_room="8" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">*BONK* Die Tür springt auf, ein Besen fällt heraus und die Tür fällt wieder zu!
+        </operation>
+    </operations>
+</room>

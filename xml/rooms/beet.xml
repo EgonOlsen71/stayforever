@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="15" name="Garten">
+    <desc>Du stehst am Rand eines kleinen Blumenbeetes. Inmitten der leuchtenden Blüten thronen zwei schwere, wettergegerbte Steinfiguren.
+        Sie blicken mit stoischer Ruhe in die Welt hinaus, während sie das bunte, aber überschaubare Blumenarrangement bewachen.
+        Ein paar Insekten fliegen leise summend zwischen den Blüten hin und her.
+        |Im Osten liegt der Vorgarten.
+    </desc>
+    <exits>
+        <exit room="garten">o</exit>
+    </exits>
+    <items>
+        <item>37</item>
+        <item>38</item>
+    </items>
+    <operations>
+        <operation command="9" item="37" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du trittst Mario. Er wackelt etwas, aber ansonsten passiert nichts!
+        </operation>
+        <operation command="9" item="38" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Der Tritt gegen das Tentakel tut dir mehr weh als ihm! Aber nichts passiert!
+        </operation>
+        <operation command="12" item="37" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Wieso hat Christian eine Mariofigur im Garten stehen? Das passt doch gar nicht zu ihm!
+        </operation>
+        <operation command="12" item="38" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Die Tentakelfigur passt gut zu Christian. Weltherrschaft und so!
+        </operation>
+        <operation command="8" item="37" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="36" remove_both="" portal_to="">Du setzt die Brechstange an und hebst Mario damit leicht an. Darunter sind nur Erde und Regenwürmer. Du setzt ihn wieder ab!
+        </operation>
+        <operation command="8" item="38" unique="1" remove_inv="36" remove_room="" add_room="" add_inv="39" unlock=""
+                   with_item="36" remove_both="" portal_to="">Du hebst das Tentakel leicht an. Darunter liegt in einer Mulde ein Schlüssel. Du greifst ihn rasch mit der linken Hand, als auch schon die Brechstange versagt!
+        </operation>
+    </operations>
+</room>

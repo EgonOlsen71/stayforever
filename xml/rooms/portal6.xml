@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="13" name="Christians Haus">
+    <desc>Du stehst auf dem Bürgersteig vor Christians Haus. Der Rest der Familie ist gestern zu einem Verwandtenbesuch aufgebrochen.
+        Christian ist aber extra hiergeblieben, damit ihr die neue Folge aufzeichnen könnt. Doch das Haus liegt ungewohnt still da.
+        Es ist wirklich merkwürdig, dass er ausgerechnet jetzt nicht erreichbar ist.|
+        Im Nordosten geht es durch ein kleines Holztor in den Garten vor dem Haus.
+    </desc>
+    <exits>
+        <exit room="garten">no</exit>
+    </exits>
+    <items>
+        <item>33</item>
+    </items>
+    <operations>
+        <operation command="9" item="33" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Der ist zwar kein Riese, aber du auch nicht. Keine gute Idee!
+        </operation>
+        <operation command="13" item="33" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">'Wou fei soll's hiegäh?' - Er guckt dich erwartungsvoll an!
+        </operation>
+        <operation command="15" item="31" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="33" remove_both="" portal_to="5">'Oh, a Guutschein! Na dann, ab gehds!' - Er fährt dich zurück zum Bahnhof!
+        </operation>
+    </operations>
+</room>

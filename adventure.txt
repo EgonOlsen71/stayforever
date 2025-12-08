@@ -8,9 +8,9 @@ Nürnberg:
 	- Tentakelfigur mit Brechstange anheben => Schlüssel unter der Tentakelfigur im Garten
 - Passwort finden (Zettel hinter Spieleposter, mit Spiegel entschlüsseln => Passwort)
 - Waschbecken im Bad oder in der Küche => Dose reinigen => WD40 erhalten
-- Schrank im Obergeschoss, Riegel sitzt fest: WD40 drauf => CX40 und Competition fallen heraus beim Öffnen
+- Schrank im Obergeschoss, Riegel sitzt fest: WD40 drauf => CX40 fällt heraus beim Öffnen, Competition liegt da auch herum
 - Laptop mit Passwort entsperren 
-- Excel lesen/benutzen, um Pin(liste) für Kellertür (Smarthome) zu erhalten
+- Excel mit Sitft benutzen, um Pin(liste) für Kellertür (Smarthome) zu erhalten
 - Licht im Keller mit Earth 2160 (BigBox)-Packung
 - Eisentür mit Joystick öffnen (CX40, Competition geht nicht) => Finale
 

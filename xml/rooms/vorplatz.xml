@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="11" name="Hauptbahnhof Nuernberg">
+    <desc>Der Vorplatz ist nicht sehr groß, aber das Gebäude wirkt irgendwie ansehnlicher als das in Karlsruhe.
+        Genauer gesagt, ist es vielleicht nicht schöner, aber es entspricht mehr dem typischen Bild,
+        das man von einem Bahnhof hat - im Guten wie im Schlechten.|
+        Auf dem Platz hüpfen ein paar Tauben umher, während in einer Losbude eine junge Verkäuferin auf Kundschaft wartet.|
+        Im Südosten geht es zu den Gleisen, im Westen ist der Taxistand.
+    </desc>
+    <exits>
+        <exit room="portal4">so</exit>
+        <exit room="portal5">w</exit>
+    </exits>
+    <items>
+        <item>30</item>
+    </items>
+    <operations>
+        <operation command="8" item="30" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">WTF?
+        </operation>
+        <operation command="9" item="30" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Der Orange Day ist jetzt nicht so dein Ding, oder?
+        </operation>
+        <operation command="13" item="30" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">'Wollen Sie ein Los kaufen? Wir haben viele Gewinne von Sponsoren aus Nürnberg!'
+        </operation>
+        <operation command="15" item="28" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="30" remove_both="" portal_to="">'Sie müssen das doch erst aufrubbeln. Wenn da dann ein Gewinn steht, kommen Sie einfach wieder her!'
+        </operation>
+        <operation command="15" item="3" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="30" remove_both="" portal_to="">'Oh, von 2004. Da war ich ein Jahr alt! Was immer das auch ist, es gehört in ein Museum!'
+        </operation>
+        <operation command="15" item="29" unique="1" remove_inv="29" remove_room="" add_room="" add_inv="31" unlock=""
+                   with_item="30" remove_both="" portal_to="">'Glückwunsch! Sie haben einen Taxi-Gutschein für Nürnberg gewonnen. Einfach beim Fahrer vorzeigen!' Sie nimmt das Los und reicht dir den Gutschein!
+        </operation>
+    </operations>
+</room>

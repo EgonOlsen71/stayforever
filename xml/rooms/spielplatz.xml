@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="5" name="Spielplatz">
+    <desc>Der Spielplatz ist zwar groß und gut ausgestattet, doch seine Lage zwischen zwei Hauptstraßen beeinträchtigt das Gesamtbild. Und weil für eine Immobilie ja Lage,
+        Lage und nochmals Lage wichtig ist, ist hier auch nicht viel los. Oder vielleicht liegt das auch daran, dass gerade Mittagszeit ist.
+    </desc>
+    <exits>
+        <exit room="portal1">s</exit>
+    </exits>
+    <items>
+        <item>21</item>
+    </items>
+    <operations>
+        <operation command="12" item="21" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Er kickt einen Fußball vor sich her, scheint sich dabei aber zu langweilen. Er trägt ein weißes T-Shirt, bedruckt das Logo des Spiels 'Mordnite'.
+        </operation>
+        <operation command="9" item="21" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Bei näherer Betrachtung ist das keine so gute Idee! Gewalt ist hier vielleicht doch keine Lösung!
+        </operation>
+        <operation command="13" item="21" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">'Ey, was geht bei dir, Bro? Bist du lost? Der Spieli ist strictly U12! Du bist safe zu alt dafür, Wallah!'
+        </operation>
+        <operation command="15" item="21" unique="1" remove_inv="" remove_room="" add_room="20" add_inv="" unlock=""
+                   with_item="15" remove_both="1" portal_to="">'SHEESH! Ein frischer Controller! Endlich kann ich wieder in Mordnite voll rasieren!' - Er rennt davon, den Ball lässt er liegen!
+        </operation>
+    </operations>
+</room>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="7" name="Hauptbahnhof Karlsruhe">
+    <desc>Der Hauptbahnhof ist ein graues, steinernes Gebäude mit einem breiten, dunkel überdachten Eingangsbereich. Direkt davor erstreckt sich ein ebenfalls grauer Vorplatz, der fast vollständig
+        von eng aneinandergereihten Fahrrädern gesäumt wird. Deines ist nicht dabei, das kommt ja nicht durch die Baustelle.|Reisende eilen geschäftig über den Platz.|
+        Im Süden liegt der Eingang des Bahnhofs, Richtung Nordwesten geht es zurück nach Karlsruhe.
+    </desc>
+    <exits>
+        <exit room="karlsruhe">nw</exit>
+        <exit room="gebaeude">s</exit>
+    </exits>
+    <items>
+        <item>22</item>
+        <item>32</item>
+    </items>
+</room>

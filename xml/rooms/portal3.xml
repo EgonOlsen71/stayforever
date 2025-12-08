@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="9" name="Karlsruhe - Gleis 12">
+    <desc>An Gleis 12 ist es heute eher ruhig. Der Zug nach Nürnberg steht schon bereit, er wartet aber noch auf einen Anschlusszug.
+        Er scheint auch nicht besonders ausgelastet zu sein und die Verspätung ist bisher auch noch überschaubar.|
+        Aufgrund eines Sicherheitsvorfalles werden die Tickets der Reisenden heute vor dem Fahrtantritt noch am Gleis kontrolliert.|
+        Für Menschen ohne gültiges Ticket stellt das eine kleine Hürde dar.|
+        Die Treppe im Nordosten führt zurück in die Schalterhalle.
+    </desc>
+    <exits>
+        <exit room="gebaeude">no</exit>
+    </exits>
+    <items>
+        <item>25</item>
+    </items>
+    <operations>
+        <operation command="12" item="25" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Wenn er nichts zu tun hat, liest er irgendwas auf seinem Handy. Eine Webseite, "Gamers Local" oder sowas in der Art!
+        </operation>
+        <operation command="9" item="25" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Entschlossen gehst du auf den Schaffner zu, er schaut kurz zu dir rüber. Entschlossen ziehst du dich wieder zurück!
+        </operation>
+        <operation command="13" item="25" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">'Wenn ich Sie ohne Ticket durchlassen soll, dann müssten Sie schon Popstar oder sowas sein. Aber die fahren ja eher selten Zug!'
+        </operation>
+        <operation command="15" item="25" unique="1" remove_inv="" remove_room="" add_room="26" add_inv="" unlock=""
+                   with_item="3" remove_both="" portal_to="">'Mensch, eine Gamestar! Die lese ich heute noch! Aber Moment, dieser Gunnar Lott dort! Das sind doch Sie, nur eben in alt! Welche Ehre! Ma ICE es su ICE!'
+        </operation>
+        <operation command="8" item="26" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                with_item="" remove_both="" portal_to="4">Du steigst in den Zug ein, der sich schon bald darauf in Richtung Nürnberg in Bewegung setzt!
+        </operation>
+    </operations>
+</room>

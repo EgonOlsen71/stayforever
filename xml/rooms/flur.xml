@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="1" name="Flur">
+    <desc>Du stehst im Flur des Stay Forever-Hauptquartiers. An einer Wand hängt ein Poster, damit der Flur nicht ganz so kahl wirkt. An der anderen Wand befindet sich eine kleine Ablage, die mal aufgeräumt werden könnte.|Von hier aus führt eine Tür nach Westen ins Büro, im Süden ist eine Abstellkammer und im Norden geht es aus dem Büro heraus.
+    </desc>
+    <exits>
+        <exit room="start">w</exit>
+        <exit room="kammer">s</exit>
+        <exit room="portal1">n</exit>
+    </exits>
+    <items>
+        <item>10</item>
+        <item>11</item>
+    </items>
+    <operations>
+        <operation command="12" item="11" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Ein Poster vom Tomb Raider. Es ist von hinten die Wand geklebt. Man kann es nicht entfernen, ohne es zu zerstören!
+        </operation>
+        <operation command="14" item="11" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Da steht 'Tomb Raider'!
+        </operation>
+    </operations>
+</room>

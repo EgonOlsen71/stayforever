@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="10" name="Nuernberg - Gleis 23">
+    <desc>Auf diesem Gleis ist nicht viel los, nur am Nebengleis stehen ein paar Leute. Der Zug wartet hier eine Weile und fährt dann wieder zurück nach Karlsruhe.
+        Wieso es einen Pendelverkehr zwischen Karlsruhe und Nürnberg gibt, wird wohl ein Rätsel bleiben.|Einer der Mülleimer am Gleis ist irgendwie bodenlos und sein Inhalt verteilt sich gleichmäßig auf dem Boden.
+        Der Vorplatz des Nürnberger Hauptbahnhofs liegt im Nordwesten.
+    </desc>
+    <exits>
+        <exit room="vorplatz">nw</exit>
+    </exits>
+    <items>
+        <item>26</item>
+        <item>27</item>
+    </items>
+    <operations>
+        <operation command="8" item="26" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="3">Du steigst in den Zug ein, der sich schon bald darauf in Richtung Karlsruhe in Bewegung setzt!
+        </operation>
+        <operation command="8" item="27" unique="1" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="8" remove_both="" portal_to="">Du fegst den Müll zusammen. Das wäre jetzt nicht nötig gewesen, aber nett ist es schon!
+        </operation>
+        <operation command="12" item="27" unique="1" remove_inv="" remove_room="" add_room="" add_inv="28" unlock=""
+                   with_item="" remove_both="" portal_to="">Du stocherst leicht angewidert mit dem Fuss im Müll herum und entdeckst ein intaktes Rubbellos, welches du einsteckst!
+        </operation>
+    </operations>
+</room>

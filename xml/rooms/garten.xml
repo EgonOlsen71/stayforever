@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="14" name="Garten">
+    <desc>Du bist im Garten vor dem Haus.
+        Der kleine Vorgarten wirkt gepflegt aber unspektakulär. Er wird zur Straße hin durch eine niedrige Hecke begrenzt.
+        Ein paar Wiesenblumen setzen farbige Akzente gegen das spärliche Grün des Rasens. Dir scheint, als herrsche hier eine ungewöhnliche Stille.
+        Vielleicht sind deine Nerven aber auch einfach nur überreizt.
+        |Im Westen hat die Familie ein kleines Blumenbeet angelegt, im Nordosten führt ein Plattenweg hinter das Haus. Im Südwesten liegt die Straße, an der das Taxi wartet.
+    </desc>
+    <exits>
+        <exit room="portal6">sw</exit>
+        <exit room="beet">w</exit>
+        <exit room="hinterhaus">no</exit>
+    </exits>
+    <items>
+        <item>34</item>
+        <item>35</item>
+    </items>
+    <operations>
+        <operation command="9" item="34" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Hilft ja nichts! Du trittst kräftig gegen die Tür! Aber gesagt, es hilft nichts!
+        </operation>
+        <operation command="13" item="34" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">'Hallo? Christian' Bist du da?' - Du horchst angestrengt aber nur die Stille antwortet dir!
+        </operation>
+        <operation command="8" item="34" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du klopfst an die Tür - keine Antwort!
+        </operation>
+        <operation command="7" item="34" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Ohne Schlüssel ist da nichts zu wollen. Die Tür bleibt zu!
+        </operation>
+        <operation command="8" item="34" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="36" remove_both="" portal_to="">Hier ist kein Spalt, um die Brechstange anzusetzen, selbst wenn du wolltest! Aber du willst auch gar nicht!
+        </operation>
+        <operation command="8" item="35" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du klingelst! Irgendwo im Haus macht es 'Ding-Dong' - aber niemand öffnet dir!
+        </operation>
+        <operation command="7" item="35" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Damit machst du sie nur kaputt!
+        </operation>
+        <operation command="14" item="35" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">'Familie Schmidt'
+        </operation>
+    </operations>
+</room>

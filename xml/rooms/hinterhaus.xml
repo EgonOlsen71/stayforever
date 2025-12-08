@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="16" name="Hinterer Garten">
+    <desc>
+        Der Garten hinter dem Haus ist etwas wilder. Der Rasen ist hochgewachsen, und in den Beeten kämpft sich Unkraut zwischen den Blumen hervor.
+        Dies ist ein Ort, der eher der Entspannung nach getaner Arbeit dient als repräsentativen Zwecken.|
+        Hier steht ein rustikales, leicht verwittertes Gartenhaus, das schon bessere Tage gesehen hat.|
+        Das große Fenster hier hat keine Gardinen, du kannst so vielleicht einen Blick ins Haus erhaschen.
+        |Richtung Südwesten geht es zum Vorgarten. im Norden geht es in das Gartenhaus, die Tür steht halb offen.
+    </desc>
+    <exits>
+        <exit room="garten">sw</exit>
+        <exit room="gartenhaus">n</exit>
+    </exits>
+    <items>
+        <item>40</item>
+    </items>
+    <operations>
+        <operation command="9" item="40" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du bist hier, um Christian zu finden! Nicht um sein Haus zu demolieren!
+        </operation>
+        <operation command="12" item="40" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du schirmst deine Augen mit den Händen ab und spähst hinein. Es ist das Wohnzimmer, doch niemand ist zu sehen!
+        </operation>
+        <operation command="8" item="40" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du schirmst deine Augen mit den Händen ab und spähst hinein. Es ist das Wohnzimmer, doch niemand ist zu sehen!
+        </operation>
+        <operation command="7" item="40" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Von außen? Wie soll das gehen?
+        </operation>
+    </operations>
+</room>
