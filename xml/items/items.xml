@@ -53,7 +53,7 @@
         <desc>Ein Spieleposter!</desc>
     </item>
     <item id="12" inventory="0">
-        <name>Schrank</name>
+        <name>Blechschrank</name>
         <desc>Ein schmaler Blechschrank!</desc>
     </item>
     <item id="13" inventory="1">
@@ -230,7 +230,7 @@
     </item>
     <item id="56" inventory="0">
         <name>Schrank</name>
-        <desc>Ein Schrank, der mit einem Riegel verschlossen werden kann!</desc>
+        <desc>Ein hölzerner Schrank, der mit einem Riegel verschlossen werden kann!</desc>
     </item>
     <item id="57" inventory="1">
         <name>Joystick</name>

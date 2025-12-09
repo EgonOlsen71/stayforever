@@ -1,6 +1,6 @@
 o
 s
-tritt schrank
+tritt blechschrank
 nimm besen
 n
 nimm sticker
@@ -52,6 +52,17 @@ benutze ersatzschluessel mit tuer
 n
 w
 benutze dose in waschbecken
+o
+h
+untersuche poster
+untersuche riss
+nimm notiz
+benutze spiegel mit notiz
+o
+o
+benutze wd60 an schrank
+nimm joystick
+
 
 
 
