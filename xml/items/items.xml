@@ -93,8 +93,8 @@
         <desc>Der Junge spielt gelangweilt mit einem Ball und murmelt vor sich hin! 'Die Technik ist so broken, Digga!'</desc>
     </item>
     <item id="22" inventory="1">
-        <name>Stift</name>
-        <desc>Ein wasserfester Stift!</desc>
+        <name>Code</name>
+        <desc>Ein augedruckter Zahlencode!</desc>
     </item>
     <item id="23" inventory="0">
         <name>Automat</name>
@@ -176,6 +176,78 @@
         <name>Dose</name>
         <desc>Eine Sprühdose, aber total verdreckt. Man kann nicht lesen, was drin ist!</desc>
     </item>
+    <item id="43" inventory="0">
+        <name>Gardrobe</name>
+        <desc>Sie ist voller Mäntel und Jacken!</desc>
+    </item>
+    <item id="44" inventory="0">
+        <name>Garderobe</name>
+        <desc>Sie ist voller Mäntel und Jacken!</desc>
+    </item>
+    <item id="45" inventory="0">
+        <name>Kellertuer</name>
+        <desc>Die Tür führt in den Keller. Sie ist verschlossen!</desc>
+    </item>
+    <item id="46" inventory="0">
+        <name>Tastenfeld</name>
+        <desc>Es sichert den Zugang zum Keller!</desc>
+    </item>
+    <item id="47" inventory="0">
+        <name>Waschbecken</name>
+        <desc>Ein ganz normales Waschbecken!</desc>
+    </item>
+    <item id="48" inventory="0">
+        <name>Kuehlschrank</name>
+        <desc>Der beste Freund des Menschen!</desc>
+    </item>
+    <item id="49" inventory="1">
+        <name>WD80</name>
+        <desc>Ein Multifunktionsspray mit Doppelpower gegen Rost, Quitschen usw.</desc>
+    </item>
+    <item id="50" inventory="0">
+        <name>Sofa</name>
+        <desc>Es sieht gemütlich aus.</desc>
+    </item>
+    <item id="51" inventory="1">
+        <name>Passwort</name>
+        <desc>Ein Zettel mit einem kryptischen Passwort!</desc>
+    </item>
+    <item id="52" inventory="0">
+        <name>Riss</name>
+        <desc>Ein Riss zwischen Schriftzug und dem großen Affenkopf!</desc>
+    </item>
+    <item id="53" inventory="1">
+        <name>Notiz</name>
+        <desc>Eine Notiz, aber die Buchstaben sehen verdreht aus!</desc>
+    </item>
+    <item id="54" inventory="0">
+        <name>Spiegel</name>
+        <desc>Ein einfacher Badezimmerspiegel!</desc>
+    </item>
+    <item id="55" inventory="0">
+        <name>Toilette</name>
+        <desc>Nun, es ist eben eine Toilette. Immerhin ist sie sauber!</desc>
+    </item>
+    <item id="56" inventory="0">
+        <name>Schrank</name>
+        <desc>Ein Schrank, der mit einem Riegel verschlossen werden kann!</desc>
+    </item>
+    <item id="57" inventory="1">
+        <name>Joystick</name>
+        <desc>Ein goldener Joystick! Offenbar ein Nachbau des alten Atari CX40-Joysticks!</desc>
+    </item>
+    <item id="58" inventory="0">
+        <name>Excel</name>
+        <desc>Excel eben. Kann man mögen, muss man aber nicht!</desc>
+    </item>
+    <item id="59" inventory="0">
+        <name>Eisentuer</name>
+        <desc>Eine massive Eisentür, aber der Griff scheint abgebrochen zu sein!</desc>
+    </item>
+    <item id="60" inventory="0">
+        <name>Christian</name>
+        <desc>Das ist Christian Schmidt!</desc>
+    </item>
 
     <operation command="8" item="1" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                with_item="" remove_both="" portal_to="">Du tippst auf dem Display herum, obwohl der Akku offensichtlich leer ist. Ein trauriges Bild!
@@ -203,6 +275,10 @@
 
     <operation command="14" item="7" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                with_item="" remove_both="" portal_to="">'Die Zukunft der Menschheit beginnt nach dem Ende Welt' - Na, wenn die meinen!
+    </operation>
+
+    <operation command="8" item="7" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Die LED leuchtet ein wenig und geht dann wieder aus!
     </operation>
 
     <operation command="14" item="10" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
@@ -237,12 +313,8 @@
                with_item="" remove_both="" portal_to="">Auf diesem Ball hat die Mannschaft des KSC unterschrieben. Für Fans ist der bestimmt wertvoll!
     </operation>
 
-    <operation command="12" item="22" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">Ein wasserfester Stift, der auf so gut wie allem schreiben kann!
-    </operation>
-
-    <operation command="8" item="22" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">Du probierst den Stift auf deiner Hand aus - ja, schreibt noch!
+    <operation command="14" item="22" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">'0073735963'
     </operation>
 
     <operation command="12" item="28" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
@@ -277,8 +349,32 @@
                with_item="" remove_both="" portal_to="">Besser nicht, solange du nicht weißt, was da drin ist!
     </operation>
 
-    <operation command="8" item="42" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+    <operation command="7" item="42" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                with_item="" remove_both="" portal_to="">Das ist eine Sprühdose. Die kannst du nicht öffnen!
+    </operation>
+
+    <operation command="12" item="42" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Du kratzt am Dreck herum, aber er ist total verkrustet und löst sich nicht!
+    </operation>
+
+    <operation command="14" item="49" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">WD80 - schmiert, löst und entfernt Rost doppelt so gut!
+    </operation>
+
+    <operation command="14" item="51" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">'suew6WJ-S...' - bestimmt ein hochsicheres Passwort!
+    </operation>
+
+    <operation command="14" item="53" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Du kannst das nicht lesen, die Schrift ist irgendwie verdreht!
+    </operation>
+
+    <operation command="12" item="57" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Er hat den typischen, sechseckigen Griff der alten Atari-Joysticks. Ist aber massiver, vermutlich irgendein gold lackiertes Metal!
+    </operation>
+
+    <operation command="14" item="57" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Unten steht drauf: '40 Jahre Atari CX40!'
     </operation>
 
 </items>

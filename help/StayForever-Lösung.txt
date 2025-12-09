@@ -24,7 +24,6 @@ benutze sticker an laterne
 gib den ball den fans
 so
 so
-nimm stift
 nimm muenze
 s
 lies fahrplan
@@ -43,10 +42,16 @@ no
 n
 untersuche anzug
 nimm brechstange
+nimm dose
 s
 sw
 w
 benutze brechstange an tentakel
+o
+benutze ersatzschluessel mit tuer
+n
+w
+benutze dose in waschbecken
 
 
 

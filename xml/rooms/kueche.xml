@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="19" name="Kueche">
+    <desc>
+        Die Küche ist ein funktionaler Raum mit hellen Fronten und einem Arbeitsbereich, der seine regelmäßige Nutzung verrät.
+        Die Spüle glänzt zwar, aber kleine Wassertropfen zeugen von einer kürzlichen Nutzung. Der Kühlschrank dominiert eine Ecke des Raumes,
+        an seiner Oberfläche haften zahlreiche bunte Magnete.
+        |Im Osten liegt der Flur.
+    </desc>
+    <exits>
+        <exit room="flur2">o</exit>
+    </exits>
+    <items>
+        <item>47</item>
+        <item>48</item>
+    </items>
+    <operations>
+        <operation command="12" item="47" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Es sind noch Wassertropfen darin, die letzte Nutzung kann noch nicht sehr lange her sein!
+        </operation>
+        <operation command="8" item="47" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du wäscht dir kurz die Hände. Kann nicht schaden!
+        </operation>
+        <operation command="8" item="47" unique="1" remove_inv="42" remove_room="" add_room="" add_inv="49" unlock=""
+                   with_item="42" remove_both="" portal_to="">Das Wasser löst den Dreck von der Dose, es kommt die Aufschrift 'WD80' zum Vorschein!
+        </operation>
+        <operation command="12" item="48" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Der Kühlschrank ist übersäht mit Magneten. Dekorativ, aber irgendwie auch nutzlos!
+        </operation>
+        <operation command="7" item="48" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du schaust in den Kühlschrank. Er ist gut gefüllt, aber Mundraub ist nicht so dein Ding!
+        </operation>
+        <operation command="9" item="48" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Ach nein, der arme Kühlschrank!
+        </operation>
+    </operations>
+
+</room>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="20" name="Arbeitszimmer">
+    <desc>
+        Das Arbeitszimmer dient sowohl der normalen Büroarbeit als auch der kreativen Tätigkeit.
+        Der Schreibtisch füllt einen Großteil der Fläche und trägt neben einem Computer mit Bildschirm ein
+        Mikrofon auf einem Schwenkarm und einen Drucker.
+        |Die Einrichtung ist praktisch, aber persönlich, ohne überladen zu wirken
+        |Im Westen befindet sich der Flur.
+    </desc>
+    <exits>
+        <exit room="flur2">w</exit>
+    </exits>
+    <items>
+        <item>4</item>
+    </items>
+    <operations>
+        <operation command="12" item="4" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Der Computer ist an, aber gesperrt! Auf einem Zettel am Bildschirm steht 'Hinter den toten Augen!' - Aha!
+        </operation>
+        <operation command="8" item="4" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Ohne Passwort klappt das nicht!
+        </operation>
+        <operation command="8" item="4" unique="0" remove_inv="" remove_room="4" add_room="58" add_inv="" unlock=""
+                   with_item="51" remove_both="" portal_to="">Du entsperrst den Computer mit dem Passwort. Ein Excel-Sheet ist auf dem Tab 'Geheim' geöffnet. Na, das ist ja geheim!
+        </operation>
+        <operation command="9" item="4" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Randale! Nee, lieber doch nicht, es ist ja nicht dein Gerät!
+        </operation>
+        <operation command="12" item="58" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Der Tab 'Geheim' ist geöffnet und der Drucken-Dialog ist aktiv!
+        </operation>
+        <operation command="14" item="58" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Da steht zu viel, um sich das alles merken zu können.
+        </operation>
+        <operation command="8" item="58" unique="1" remove_inv="" remove_room="" add_room="22" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du druckst das Excel-Sheet einfach aus. Unter anderem steht dort ein Zahlencode drauf!
+        </operation>
+
+    </operations>
+
+</room>

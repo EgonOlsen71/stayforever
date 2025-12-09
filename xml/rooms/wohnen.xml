@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="21" name="Wohnzimmer">
+    <desc>
+        Das Wohnzimmer ist der gemütlichste Raum des Hauses. Das tiefe, einladende Sofa, mit vielen Kissen dekoriert,
+        fordert dich zum Verweilen auf.
+        Davor steht ein Couchtisch, dessen polierte Oberfläche an einigen Stellen Ringe von abgestellten Gläsern oder Tassen aufweist.
+        Die Wände sind geschmückt mit persönlichen Fotos und ausgewählten Bildern.|
+        Durch das Fenster fällt gedämpftes Licht, welches den Raum warm und behaglich erscheinen lässt -
+        ein deutlicher Kontrast zur leeren Stille des Flurs, der im Südwesten liegt.
+    </desc>
+    <exits>
+        <exit room="flur2">sw</exit>
+    </exits>
+    <items>
+        <item>50</item>
+    </items>
+    <operations>
+        <operation command="12" item="50" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Sieht gemütlich aus, ist aber ansonsten unauffällig!
+        </operation>
+        <operation command="8" item="50" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du setzt sich kurz hin, schaust dich im Raum um und stehst wieder auf.
+        </operation>
+        <operation command="12" item="40" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du schaust hinaus in den Garten. Da gibt es nicht viel zu sehen!
+        </operation>
+        <operation command="8" item="40" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du schaust hinaus in den Garten. Da gibt es nicht viel zu sehen!
+        </operation>
+        <operation command="7" item="40" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du öffnest das Fenster und schaust in den Garten hinaus. Es ist niemand zu sehen, also schließt du es wieder!
+        </operation>
+
+    </operations>
+
+</room>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="22" name="Erster Stock">
+    <desc>
+        Du bist im ersten Stock des Hauses. Der kleine Flurbereich hier oben ist der Ausgangspunkt zu den privaten Räumen.
+        Von hier aus führen zwei Türen ab. Im Westen liest das Bad und im Osten das Schlafzimmer.
+        |Eine Treppe führt runter in den Flur.
+    </desc>
+    <exits>
+        <exit room="flur2">r</exit>
+        <exit room="bad">w</exit>
+        <exit room="schlaf">o</exit>
+    </exits>
+    <items>
+        <item>11</item>
+    </items>
+    <operations>
+        <operation command="12" item="11" unique="1" remove_inv="" remove_room="" add_room="52" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Ein riesengroßes Poster von Monkey Island! Bis auf einen kleinen Riss unter dem Schriftzug ist es gut erhalten!
+        </operation>
+        <operation command="14" item="11" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Im Wesentlichen steht da nur 'The Secret of Monkey Island'!
+        </operation>
+        <operation command="12" item="52" unique="1" remove_inv="" remove_room="" add_room="53" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du ertastest eine Notiz in dem Riss hinter dem Poster und ziehst sie vorsichtig hervor!
+        </operation>
+        <operation command="7" item="52" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du willst den Riss nicht unnötig vergrößern. Etwas mehr Vorsicht ist angebracht, sonst zerstörst du das schöne Poster!
+        </operation>
+
+    </operations>
+
+</room>

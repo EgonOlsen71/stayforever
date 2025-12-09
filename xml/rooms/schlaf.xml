@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="24" name="Schlafzimmer">
+    <desc>
+        Das Schlafzimmer ist der persönlichste Raum des Hauses.
+        Ein großes Doppelbett mit weicher Decke und Kissen füllt einen Großteil der Fläche.
+        Links und rechts des Bettes stehen zwei identische, schlichte Nachttische.
+        |Du fühlst dich hier merkwürdig deplatziert.
+        |Die Tür im Westen führt zurück in den oberen FLur.
+    </desc>
+    <exits>
+        <exit room="oben">w</exit>
+    </exits>
+    <items>
+        <item>56</item>
+    </items>
+    <operations>
+        <operation command="12" item="56" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Der Schrank passt eigentlich eher in einen Keller als in ein Schlafzimmer. Komisch!
+        </operation>
+        <operation command="7" item="56" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du versuchst, den Riegel zu öffnen, aber er bewegt sich nicht. Wirkt irgendwie eingerostet!
+        </operation>
+        <operation command="9" item="56" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Der Schrank wackelt ein wenig und irgendwas klappert darin herum!
+        </operation>
+        <operation command="8" item="56" unique="1" remove_inv="" remove_room="56" add_room="57" add_inv="" unlock=""
+                   with_item="49" remove_both="" portal_to="">Das WD80 wirkt Wunder und der Riegel löst sich. Der Schrank ist nun offen und darin ist ... ein Joystick!?
+        </operation>
+    </operations>
+</room>

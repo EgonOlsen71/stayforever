@@ -12,6 +12,7 @@
     </exits>
     <items>
         <item>41</item>
+        <item>42</item>
     </items>
     <operations>
         <operation command="7" item="41" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""

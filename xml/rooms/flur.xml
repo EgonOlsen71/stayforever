@@ -13,7 +13,7 @@
     </items>
     <operations>
         <operation command="12" item="11" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Ein Poster vom Tomb Raider. Es ist von hinten die Wand geklebt. Man kann es nicht entfernen, ohne es zu zerstören!
+                   with_item="" remove_both="" portal_to="">Ein Poster von Tomb Raider. Es ist von hinten die Wand geklebt. Man kann es nicht entfernen, ohne es zu zerstören!
         </operation>
         <operation command="14" item="11" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Da steht 'Tomb Raider'!

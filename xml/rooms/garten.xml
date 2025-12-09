@@ -10,6 +10,7 @@
         <exit room="portal6">sw</exit>
         <exit room="beet">w</exit>
         <exit room="hinterhaus">no</exit>
+        <exit room="flur2" locked="1">n</exit>
     </exits>
     <items>
         <item>34</item>
@@ -39,6 +40,9 @@
         </operation>
         <operation command="14" item="35" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">'Familie Schmidt'
+        </operation>
+        <operation command="8" item="34" unique="1" remove_inv="" remove_room="" add_room="" add_inv="" unlock="n"
+                   with_item="39" remove_both="1" portal_to="">Der Schlüssel passt perfekt, die Tür schwingt auf.
         </operation>
     </operations>
 </room>

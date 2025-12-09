@@ -24,6 +24,9 @@
         <operation command="8" item="40" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Du schirmst deine Augen mit den Händen ab und spähst hinein. Es ist das Wohnzimmer, doch niemand ist zu sehen!
         </operation>
+        <operation command="8" item="40" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="36" remove_both="" portal_to="">Vor deinem geistigen Auge siehst du die Scheibe in tausende kleiner Scherben zerbersten. Aber eben nur da, du Weirdo!
+        </operation>
         <operation command="7" item="40" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Von außen? Wie soll das gehen?
         </operation>

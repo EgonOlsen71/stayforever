@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="26" name="Christians Sammlung">
+    <desc>
+        Christian sitzt im Schneidersitz inmitten eines gewaltigen Berges aus Big-Box-Spielen.
+        Er hat dir den Rücken zugewandt und sortiert gerade gedankenversunken die Disketten eines Spiels.|
+        Die einzige Beleuchtung stammt von einer einzelnen, kahlen Glühbirne, deren gelbliches Licht
+        lange Schatten wirft. Der Raum ist etwas kühl, scheint aber trocken zu sein.
+        |Im Süden liegt der dunkle Keller.
+    </desc>
+    <exits>
+        <exit room="keller">s</exit>
+    </exits>
+    <items>
+        <item>60</item>
+    </items>
+    <operations>
+        <operation command="12" item="60" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Christian sitzt in der Mitte des Raumes auf dem Boden und sortiert die Disketten von 'Return to Zork'!
+        </operation>
+        <operation command="9" item="60" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Das dürfte keine so gute Idee sein, wenn du Stay Forever noch weiter betreiben möchtest!
+        </operation>
+        <operation command="8" item="60" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="49" remove_both="" portal_to="">Christian ist nicht verrostet und muss nicht geschmiert werden!
+        </operation>
+        <operation command="13" item="60" unique="1" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="8">Du tippst Christian auf die Schulter, er dreht sich erschrocken um ...
+        </operation>
+
+    </operations>
+</room>

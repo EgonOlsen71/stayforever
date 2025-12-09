@@ -9,7 +9,6 @@
         <exit room="gebaeude">s</exit>
     </exits>
     <items>
-        <item>22</item>
         <item>32</item>
     </items>
 </room>
