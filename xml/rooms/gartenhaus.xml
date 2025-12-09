@@ -3,7 +3,7 @@
     <desc>
         Das Innere des Gartenhauses riecht nach feuchter Erde und altem Holz.
         Durch die kleinen, etwas schmutzigen Fenster fällt gedämpftes Licht auf den gestampften Boden.
-        In den Ecken stapeln sich irgendwelche Gartenwerkzeuge, teilweise mit Rost überzogen.
+        In den Ecken stapeln sich irgendwelche, teilweise rostigen Gartenwerkzeuge.
         An einer Wand hängt eine Art Arbeitsanzug.
         |Die Tür im Süden führt zurück in den Garten hinter dem Haus.
     </desc>
@@ -16,13 +16,13 @@
     </items>
     <operations>
         <operation command="7" item="41" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Du kannst erkennen, wo man den Anzug öffnen könnte!
+                   with_item="" remove_both="" portal_to="">Der Anzug scheint nahtlos verschlossen zu sein. Du kannst ihn nicht öffnen!
         </operation>
         <operation command="8" item="41" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Der ist fest an der Wand. Den kannst du nicht benutzen!
         </operation>
         <operation command="12" item="41" unique="1" remove_inv="" remove_room="" add_room="36" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Du bemerkst eine Brechstange, die unscheinbar, im Halbdunkel verborgen, an dem Anzug lehnt!
+                   with_item="" remove_both="" portal_to="">Dein Blick fällt auf eine Brechstange, die unauffällig am Fuß des Anzugs im Halbdunkel liegt!
         </operation>
     </operations>
 

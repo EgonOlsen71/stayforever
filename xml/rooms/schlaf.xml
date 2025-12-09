@@ -5,7 +5,7 @@
         Ein großes Doppelbett mit weicher Decke und Kissen füllt einen Großteil der Fläche.
         Links und rechts des Bettes stehen zwei identische, schlichte Nachttische.
         |Du fühlst dich hier merkwürdig deplatziert.
-        |Die Tür im Westen führt zurück in den oberen FLur.
+        |Die Tür im Westen führt zurück in den oberen Flur.
     </desc>
     <exits>
         <exit room="oben">w</exit>
@@ -18,10 +18,10 @@
                    with_item="" remove_both="" portal_to="">Der Schrank passt eigentlich eher in einen Keller als in ein Schlafzimmer. Komisch!
         </operation>
         <operation command="7" item="56" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Du versuchst, den Riegel zu öffnen, aber er bewegt sich nicht. Wirkt irgendwie eingerostet!
+                   with_item="" remove_both="" portal_to="">Du versuchst, den Riegel zu betätigen, doch er bewegt sich nicht. Wirkt irgendwie festgegammelt!
         </operation>
         <operation command="9" item="56" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Der Schrank wackelt ein wenig und irgendwas klappert darin herum!
+                   with_item="" remove_both="" portal_to="">Der Schrank wackelt ein wenig und irgendwas klappert darin herum! Sonst passiert nichts!
         </operation>
         <operation command="8" item="56" unique="1" remove_inv="" remove_room="56" add_room="57" add_inv="" unlock=""
                    with_item="49" remove_both="" portal_to="">Das WD80 wirkt Wunder und der Riegel löst sich. Der Schrank ist nun offen und darin ist ... ein Joystick!?

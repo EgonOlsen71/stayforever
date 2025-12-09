@@ -24,14 +24,17 @@
         <operation command="8" item="59" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Du klopfst an die Tür, keine Antwort!
         </operation>
+        <operation command="9" item="59" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">*KLONK* - dumpf, dumm und schmerzhaft!
+        </operation>
         <operation command="7" item="59" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Die geht so nicht auf, weil kein Griff mehr dran ist!
         </operation>
         <operation command="12" item="59" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Der Griff fehlt, stattdessen ist dort nur noch ein eckiges Loch zu sehen!
         </operation>
-        <operation command="8" item="59" unique="1" remove_inv="" remove_room="" add_room="" add_inv="" unlock="n"
-                   with_item="57" remove_both="1" portal_to="">Du steckst den Griff des Sticks in das Loch in der Tür und drehst ihn langsam nach links. Es knackt bedenklich, aber irgendwann springt die Tür auf!
+        <operation command="8" item="59" unique="1" remove_inv="57" remove_room="59" add_room="" add_inv="" unlock="n"
+                   with_item="57" remove_both="" portal_to="">Du steckst den Griff des Sticks in das Loch in der Tür und drehst ihn langsam nach links. Es knackt bedenklich, aber irgendwann springt die Tür auf!
         </operation>
     </operations>
 </room>

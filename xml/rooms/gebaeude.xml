@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <room id="8" name="Schalterhalle">
-    <desc>Der optische Kontrast zwischen der hellen, modernen Schalterhalle und dem tristen Äußeren des Bahnhofes ist bemerkenswert.
+    <desc>Der optische Kontrast zwischen der hellen, modernen Schalterhalle und dem grauen, tristen Äußeren des Bahnhofes ist bemerkenswert.
         Auch hier herrscht reges Treiben, laute Durchsagen mischen sich mit dem Gemurmel der Reisenden.
         Neben dem Fahrkartenautomaten hängen die Fahrpläne aus.|
         Und wenn man weiß, zu welchem Gleis man möchte, dann kommt man von hier auf kurzem Weg dorthin.
@@ -19,7 +19,7 @@
                    with_item="" remove_both="" portal_to="">Hier kann man Fahrkarten kaufen, sofern man Geld dafür hat!
         </operation>
         <operation command="9" item="23" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Du behandelst den Automaten, so wie er es verdient aber er ignoriert deine sinnlose Gewalt!
+                   with_item="" remove_both="" portal_to="">Du behandelst den Automaten, so wie er es verdient hat! Zielführend ist das aber nicht!
         </operation>
         <operation command="8" item="23" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Du wählst Nürnberg als Ziel, aber die wollen tatsächlich Geld für die Karte haben! Hallo? Für Nürnberg? Du drückst erbost auf 'Abbrechen'!

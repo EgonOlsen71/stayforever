@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <room id="0" name="Das Stay Forever-HQ">
-    <desc>Dies ist das Stay Forever-Hauptquartier in Karlsruhe. Die Mittagssonne taucht den Raum in ein warmes Licht, das die Staubpartikel über dem Tisch tanzen lässt.|Auf deinem Schreibtisch steht ein Computer, bereit für die Aufnahme neuer Podcastfolgen.
-        Deine mittelgroße Retrosammlung ist, größtenteils ordentlich, einem schlichten Regal verstaut. Im Osten befindet sich die offene Tür zum Flur.
+    <desc>Dies ist das Stay Forever-Hauptquartier in Karlsruhe. Die schräg durch das Fenster fallenden Sonnenstrahlen tauchen den Raum in ein angenehm warmes Licht.|Auf deinem Schreibtisch steht ein Computer, bereit für die Aufnahme neuer Podcastfolgen.
+        Deine mittelgroße Retrosammlung ist, größtenteils ordentlich, in einem schlichten Regal verstaut. Im Osten befindet sich die offene Tür zum Flur.
     </desc>
     <exits>
         <exit room="flur">O</exit>
@@ -12,21 +12,22 @@
         <item>4</item>
         <item>5</item>
         <item>6</item>
+        <item>44</item>
     </items>
     <operations>
         <operation command="12" item="0" unique="1" remove_inv="" remove_room="" add_room="2" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Du betrachtest den Tisch und seine einzige Schublade eingehend, siehst aber nichts Besonderes!
+                   with_item="" remove_both="" portal_to="">Obwohl der Tisch modern und auf das Nötigste reduziert ist, besitzt er immerhin eine Schublade!
         </operation>
         <operation command="8" item="2" unique="1" remove_inv=""
                    remove_room="" add_room="" add_inv="3" unlock="" with_item=""
-                   remove_both="" portal_to="">In der Schublade liegt eine einsame Gamestar-Ausgabe. Du nimmst sie heraus!
+                   remove_both="" portal_to="">In der Schublade liegt eine alte Gamestar-Ausgabe. Du nimmst sie heraus!
         </operation>
         <operation command="7" item="2" unique="1" remove_inv=""
                    remove_room="" add_room="" add_inv="3" unlock="" with_item=""
-                   remove_both="" portal_to="">In der Schublade liegt eine einsame Gamestar-Ausgabe. Du nimmst sie heraus!
+                   remove_both="" portal_to="">In der Schublade liegt eine alte  Gamestar-Ausgabe. Du nimmst sie heraus!
         </operation>
         <operation command="8" item="4" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Du versuchst, Christian zu kontakieren. Der Ruf geht raus, aber du bekommst keine Antwort!
+                   with_item="" remove_both="" portal_to="">Du versuchst, Christian zu kontaktieren. Der Ruf geht raus, aber du bekommst keine Antwort!
         </operation>
         <operation command="12" item="4" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Der Computer ist eingeschaltet! Eigentlich wolltet ihr eine neue Folge aufnehmen. Aber Christian meldet sich nicht!
@@ -41,7 +42,7 @@
                    with_item="8" remove_both="" portal_to="">Du stösst den Behälter vom Regal. Es ist eine leere Diskettenbox, deren altes Plastik beim Aufprall zerbricht. In den Trümmern liegt ein kleiner Schlüssel!
         </operation>
         <operation command="12" item="5" unique="1" remove_inv="" remove_room="" add_room="7" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Hauptsächlich Spiele und Krimskrams. Wenn du dich vor dem Regal bewegst, fängt eines der Spiele zu leuchten an!?
+                   with_item="" remove_both="" portal_to="">Hauptsächlich Spiele und Krimskrams. Wenn du dich vor dem Regal bewegst, fängt eines der Spiele zu leuchten an!
         </operation>
     </operations>
 </room>

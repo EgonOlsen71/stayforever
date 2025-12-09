@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <room id="9" name="Karlsruhe - Gleis 12">
-    <desc>An Gleis 12 ist es heute eher ruhig. Der Zug nach Nürnberg steht schon bereit, er wartet aber noch auf einen Anschlusszug.
-        Er scheint auch nicht besonders ausgelastet zu sein und die Verspätung ist bisher auch noch überschaubar.|
-        Aufgrund eines Sicherheitsvorfalles werden die Tickets der Reisenden heute vor dem Fahrtantritt noch am Gleis kontrolliert.|
-        Für Menschen ohne gültiges Ticket stellt das eine kleine Hürde dar.|
-        Die Treppe im Nordosten führt zurück in die Schalterhalle.
+    <desc>Am Gleis 12 herrscht heute eine ungewöhnliche Ruhe. Der Zug nach Nürnberg steht schon bereit, wartet aber noch auf einen Anschlusszug.
+        Er wirkt nicht ausgelastet, und die Verspätung ist bisher gering.|
+        Aufgrund eines Sicherheitsvorfalles werden alle Tickets heute direkt am Gleis vor der Abfahrt kontrolliert. Das ist eine offensichtliche Hürde für jeden ohne gültige Fahrkarte.
+        |Die Treppe im Nordosten führt zurück in die Schalterhalle.
     </desc>
     <exits>
         <exit room="gebaeude">no</exit>
@@ -14,10 +13,10 @@
     </items>
     <operations>
         <operation command="12" item="25" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Wenn er nichts zu tun hat, liest er irgendwas auf seinem Handy. Eine Webseite, "Gamers Local" oder sowas in der Art!
+                   with_item="" remove_both="" portal_to="">Wenn er nichts zu tun hat, ist er in sein Smartphone vertieft. Er scrollt durch eine Webseite, die aussieht wie "GamersLocal"!
         </operation>
         <operation command="9" item="25" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Entschlossen gehst du auf den Schaffner zu, er schaut kurz zu dir rüber. Entschlossen ziehst du dich wieder zurück!
+                   with_item="" remove_both="" portal_to="">Entschlossen gehst du auf den Schaffner zu, er schaut kurz von Handy auf. Entschlossen ziehst du dich wieder zurück!
         </operation>
         <operation command="13" item="25" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">'Wenn ich Sie ohne Ticket durchlassen soll, dann müssten Sie schon Popstar oder sowas sein. Aber die fahren ja eher selten Zug!'

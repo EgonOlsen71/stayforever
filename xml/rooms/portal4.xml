@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <room id="10" name="Nuernberg - Gleis 23">
-    <desc>Auf diesem Gleis ist nicht viel los, nur am Nebengleis stehen ein paar Leute. Der Zug wartet hier eine Weile und fährt dann wieder zurück nach Karlsruhe.
-        Wieso es einen Pendelverkehr zwischen Karlsruhe und Nürnberg gibt, wird wohl ein Rätsel bleiben.|Einer der Mülleimer am Gleis ist irgendwie bodenlos und sein Inhalt verteilt sich gleichmäßig auf dem Boden.
+    <desc>Abgesehen von ein paar Wartenden am Nebengleis ist hier kaum etwas los.
+        Der Zug hält kurz, bevor er wieder die Reise zurück nach Karlsruhe antritt. Der Sinn dieses Pendelverkehrs zwischen Nürnberg und Karlsruhe bleibt dir schleierhaft.
+        |Einer der Mülleimer am Gleis ist irgendwie 'bodenlos' und sein Inhalt verteilt sich gleichmäßig auf dem Bahnsteig.
         Der Vorplatz des Nürnberger Hauptbahnhofs liegt im Nordwesten.
     </desc>
     <exits>

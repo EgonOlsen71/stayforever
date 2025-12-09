@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <room id="18" name="Flur">
     <desc>
-        Der Flur ist ein heller Durchgangsraum, dessen Wände in einem unaufdringlichen, freundlichen Farbton gehalten sind. Die Bodenfliesen sind sauber, aber bereits leicht stumpf.
-        An einer Garderobe hängen zahlreiche Mäntel und Jacken.
+        Der Flur ist ein heller Durchgangsraum, dessen Wände in einem unaufdringlichen, freundlichen Farbton gehalten sind. Die Bodenfliesen sind sauber, wenn auch bereits leicht stumpf.
+        An einer Garderobe hängen zahlreiche Mäntel und Jacken.|
         Von hier aus führen Türen zu den anderen Bereichen des Hauses.
         |Die Tür zum Vorgarten liegt im Süden, im Westen ist die Küche. Im Osten liegt Christians Arbeitszimmer, im Nordosten ist das Wohnzimmer. Eine Treppe führt nach oben.
     </desc>
@@ -24,25 +24,25 @@
                    with_item="" remove_both="" portal_to="">Hier hängt auch Christians Jacke. Er scheint das Haus also nicht verlassen zu haben!
         </operation>
         <operation command="12" item="45" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Die Tür ist solide und verschlossen!
+                   with_item="" remove_both="" portal_to="">Die Kellertür ist solide und verschlossen!
         </operation>
         <operation command="7" item="45" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Die Tür ist fest verschlossen, du kannst sie nicht öffnen!
+                   with_item="" remove_both="" portal_to="">Die Kellertür ist fest verschlossen, du kannst sie nicht öffnen!
         </operation>
         <operation command="8" item="45" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Du klopfst an die Tür, aber niemand antwortet!
         </operation>
         <operation command="9" item="45" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Die Tür bleibt von deinen Gewaltexzessen unbeeindruckt!
+                   with_item="" remove_both="" portal_to="">Die Kellertür bleibt von deinen Gewaltexzessen unbeeindruckt!
         </operation>
         <operation command="12" item="46" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Das Tastenfeld ist in die Wand eingelassen und sichert den Zugang zum Keller!
+                   with_item="" remove_both="" portal_to="">Das Tastenfeld ist in die Wand eingelassen. Es sichert den Zugang zum Keller!
         </operation>
         <operation command="8" item="46" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Du tippst wahllos auf dem Tastenfeld herum. Du hörst ein lauten Tröten, aber sonst passiert nichts!
         </operation>
         <operation command="8" item="46" unique="1" remove_inv="" remove_room="45" add_room="" add_inv="" unlock="r"
-                   with_item="22" remove_both="" portal_to="">Du tippst den Code ein, es piept und klickt dann im Schloss. Die Tür schwingt auf und gibt den Weg nach unten frei!
+                   with_item="22" remove_both="" portal_to="">Du tippst den Code ein, es piept und klickt dann im Schloss. Die Kellertür schwingt auf und gibt den Weg nach unten frei!
         </operation>
     </operations>
 

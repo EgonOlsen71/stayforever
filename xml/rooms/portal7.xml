@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<room id="34" end="true" name="Das Ende">
+<room id="27" end="true" name="Das Ende">
     <desc>'Mensch, Gunnar! Gut, dass du kommst! Mir ist der verflixte Griff abgebrochen.
-        Ich dachte schon, ich müsste hier ausharren, bis meine Frau wieder da ist. Daher
-        habe ich angefangen, diese Disketten zu sortieren.|
-        Aber wo du jetzt da bist, lass uns doch nach oben gehen. Ich mache uns ein Getränk
+        Dachte schon, ich müsste hier Disketten sortieren, bis meine Frau zurück ist.|
+        Aber jetzt lass uns doch nach oben gehen. Ich mache uns ein Getränk
         und dann nehmen wir die neue Folge einfach in der Küche auf. Wie in alten Zeiten, was meinst du?'|
         Du stimmst zu und ihr geht nach oben. Nach einem kleinen Heißgetränk stellt Christian den Laptop
-        in die Küche und ihr beginnt mit der Aufnahme.
-        'Willkommen zu einer neuen Folge von Stay Forever. Hallo Christian!'
-        'Guten Tag Gunnar!'
-        'Weiß nicht, ob der Tag gut wird, wo wir doch schon wieder so ein Sierra-Adventure besprechen heute...'
+        in die Küche und ihr beginnt mit der Aufnahme.|
+        'Willkommen zu einer neuen Folge von Stay Forever. Hallo Christian!'|
+        'Guten Tag Gunnar!'|
+        'Weiß nicht, ob der Tag gut wird, wo wir doch schon wieder so ein Sierra-Adventure besprechen...'
         |Danke fürs Spielen, EgonOlsen71 im Dezember 2025
     </desc>
 </room>

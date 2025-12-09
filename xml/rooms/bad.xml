@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <room id="23" name="Badezimmer">
     <desc>
-        Das Badezimmer ist klein und funktional, mit hellen Fliesen, die den Raum ein wenig steril wirken lassen.
-        Hier befindet sich ein schlichtes Waschbecken mit einem Spiegel darüber, der leichte Schlieren aufweist.
+        Das Badezimmer ist klein und funktional. Die hellen Fliesen lassen den Raum fast steril wirken.
+        Hier befindet sich ein schlichtes Waschbecken mit einem Spiegel darüber, dessen Oberfläche leichte Schlieren aufweist.
         In einer Ecke steht die weiße Toilette, unscheinbar und sauber.
         |Die Tür im Osten führt aus dem Bad heraus.
     </desc>
@@ -16,22 +16,22 @@
     </items>
     <operations>
         <operation command="8" item="47" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Du öffnest den Hahn, aber es kommt kein Wasser. Vermutlich defekt!
+                   with_item="" remove_both="" portal_to="">Du öffnest den Hahn, aber es kommt kein Wasser. Er ist offensichtlich defekt.
         </operation>
         <operation command="8" item="54" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Gut siehst du aus!
         </operation>
         <operation command="8" item="54" unique="1" remove_inv="53" remove_room="" add_room="" add_inv="51" unlock=""
-                   with_item="53" remove_both="" portal_to="">Du hältst die Notiz vor den Spiegel und im Spiegelbild kannst du den Text nun lesen. Sieht wie ein Passwort aus!
+                   with_item="53" remove_both="" portal_to="">Du hältst die Notiz vor den Spiegel und im Spiegelbild wird der Text lesbar. Sieht wie ein Passwort aus!
         </operation>
         <operation command="9" item="54" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Was ist eigentlich dein Problem?
         </operation>
         <operation command="12" item="55" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                     with_item="" remove_both="" portal_to="">Du greifst beherzt in die Toilette und .. nee, machst du doch nicht!
+                     with_item="" remove_both="" portal_to="">Du greifst beherzt in die Toilette und ... nee, machst du doch nicht!
         </operation>
         <operation command="8" item="55" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Schwarzblende ... es plätschert ... dann wird es wieder hell!
+                   with_item="" remove_both="" portal_to="">Abblende ... es plätschert, es rauscht ... Aufblende!
         </operation>
 
     </operations>

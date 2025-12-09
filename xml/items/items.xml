@@ -22,7 +22,7 @@
     </item>
     <item id="5" inventory="0">
         <name>Regal</name>
-        <desc>Ein schlichtes Regal von einer schwedischen Möbelkette!</desc>
+        <desc>Das schlichte Produkt einer schwedischen Möbelkette!</desc>
     </item>
     <item id="6" inventory="0">
         <name>Behaelter</name>
@@ -38,11 +38,7 @@
     </item>
     <item id="9" inventory="1">
         <name>Schlüssel</name>
-        <desc>Der kleine Schlüssel einer Diskettenbox!</desc>
-    </item>
-    <item id="10" inventory="1">
-        <name>Sticker</name>
-        <desc>Ein runder Aufkleber!</desc>
+        <desc>Der kleine Schlüssel für eine Diskettenbox!</desc>
     </item>
     <item id="10" inventory="1">
         <name>Sticker</name>
@@ -94,7 +90,7 @@
     </item>
     <item id="22" inventory="1">
         <name>Code</name>
-        <desc>Ein augedruckter Zahlencode!</desc>
+        <desc>Ein ausgedruckter Zahlencode!</desc>
     </item>
     <item id="23" inventory="0">
         <name>Automat</name>
@@ -126,7 +122,7 @@
     </item>
     <item id="30" inventory="0">
         <name>Verkaeuferin</name>
-        <desc>Vermutlich eine Studentin. Sie kaut gelangweilt auf einem Kaugummi herum!</desc>
+        <desc>Sie kaut gelangweilt auf einem Kaugummi herum!</desc>
     </item>
     <item id="31" inventory="1">
         <name>Gutschein</name>
@@ -146,7 +142,7 @@
     </item>
     <item id="35" inventory="0">
         <name>Klingel</name>
-        <desc>Eine normale Türklingel!</desc>
+        <desc>Eine normale, elektrische Türklingel!</desc>
     </item>
     <item id="36" inventory="1">
         <name>Brechstange</name>
@@ -154,15 +150,15 @@
     </item>
     <item id="37" inventory="0">
         <name>Mario</name>
-        <desc>Offenbar ein dicker, italienischer Klemper. Nur eben aus Stein!</desc>
+        <desc>Ein dicker, italienischer Klempner aus Stein!</desc>
     </item>
     <item id="38" inventory="0">
         <name>Tentakel</name>
-        <desc>Sieht aus das Tentakel aus Maniac Mansion!</desc>
+        <desc>Sieht aus wie das Tentakel aus Maniac Mansion!</desc>
     </item>
     <item id="39" inventory="1">
         <name>Ersatzschluessel</name>
-        <desc>Das ist der Türschlüssel zu Christians Haustür!</desc>
+        <desc>Das ist ein Türschlüssel zu Christians Haustür!</desc>
     </item>
     <item id="40" inventory="0">
         <name>Fenster</name>
@@ -174,15 +170,15 @@
     </item>
     <item id="42" inventory="1">
         <name>Dose</name>
-        <desc>Eine Sprühdose, aber total verdreckt. Man kann nicht lesen, was drin ist!</desc>
+        <desc>Eine total verdreckte Sprühdose. Man kann nicht lesen, was drin ist!</desc>
     </item>
     <item id="43" inventory="0">
-        <name>Gardrobe</name>
-        <desc>Sie ist voller Mäntel und Jacken!</desc>
+        <name>Garderobe</name>
+        <desc>Sie hängt voller Mäntel und Jacken!</desc>
     </item>
     <item id="44" inventory="0">
-        <name>Garderobe</name>
-        <desc>Sie ist voller Mäntel und Jacken!</desc>
+        <name>Stuhl</name>
+        <desc>Ein einfacher Stuhl!</desc>
     </item>
     <item id="45" inventory="0">
         <name>Kellertuer</name>
@@ -206,7 +202,7 @@
     </item>
     <item id="50" inventory="0">
         <name>Sofa</name>
-        <desc>Es sieht gemütlich aus.</desc>
+        <desc>Es sieht sehr gemütlich aus.</desc>
     </item>
     <item id="51" inventory="1">
         <name>Passwort</name>
@@ -242,7 +238,7 @@
     </item>
     <item id="59" inventory="0">
         <name>Eisentuer</name>
-        <desc>Eine massive Eisentür, aber der Griff scheint abgebrochen zu sein!</desc>
+        <desc>Eine massive Eisentür ohne Griff. Er scheint abgebrochen zu sein!</desc>
     </item>
     <item id="60" inventory="0">
         <name>Christian</name>
@@ -253,12 +249,16 @@
                with_item="" remove_both="" portal_to="">Du tippst auf dem Display herum, obwohl der Akku offensichtlich leer ist. Ein trauriges Bild!
     </operation>
 
+    <operation command="8" item="8" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Du fegst ein bisschen vor dich hin!
+    </operation>
+
     <operation command="12" item="1" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                with_item="" remove_both="" portal_to="">Der Akku ist leer und ein Ladekabel hast du nicht dabei. So ist es nutzlos!
     </operation>
 
     <operation command="14" item="3" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">Dies ist die erste Ausgabe von dir als Chefredakteur. Auf dem Cover sind Rome, Dawn of War und Quake 4 erwähnt!
+               with_item="" remove_both="" portal_to="">Dies ist die erste Ausgabe mit dir als Chefredakteur. Auf dem Cover sind Rome, Dawn of War und Quake 4 erwähnt!
     </operation>
 
     <operation command="12" item="3" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
@@ -274,11 +274,11 @@
     </operation>
 
     <operation command="14" item="7" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">'Die Zukunft der Menschheit beginnt nach dem Ende Welt' - Na, wenn die meinen!
+               with_item="" remove_both="" portal_to="">'Die Zukunft der Menschheit beginnt nach dem Ende Welt' ... Na, wenn die meinen!
     </operation>
 
     <operation command="8" item="7" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">Die LED leuchtet ein wenig und geht dann wieder aus!
+               with_item="" remove_both="" portal_to="">Die LED leuchtet, geht dann aber schnell wieder aus!
     </operation>
 
     <operation command="14" item="10" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
@@ -302,7 +302,7 @@
     </operation>
 
     <operation command="12" item="15" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">Der Controller hat etwa 30 Buttons - also ganz normal!
+               with_item="" remove_both="" portal_to="">Der Controller hat etwa 30 Buttons, ist also ganz normal!
     </operation>
 
     <operation command="14" item="20" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
@@ -318,7 +318,7 @@
     </operation>
 
     <operation command="12" item="28" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">Das Los ist unbenutzt. Es gibt Geld- und Sachpreise zu gewinnen!
+               with_item="" remove_both="" portal_to="">Das Los ist unbenutzt. Man kann Geld- und Sachpreise gewinnen!
     </operation>
 
     <operation command="14" item="28" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
@@ -326,7 +326,7 @@
     </operation>
 
     <operation command="8" item="28" unique="1" remove_inv="28" remove_room="" add_room="" add_inv="29" unlock=""
-               with_item="32" remove_both="" portal_to="">Du rubbelst das Los frei - du hast nun ein Gewinnlos für irgendeinen Gutschein!
+               with_item="32" remove_both="" portal_to="">Du rubbelst das Los frei und hast nun ein Gewinnlos für irgendeinen Gutschein!
     </operation>
 
     <operation command="12" item="29" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
@@ -334,7 +334,7 @@
     </operation>
 
     <operation command="14" item="29" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">Da steht 'Freie Fahrt für freie Rubbler' - Was soll das denn heißen?
+               with_item="" remove_both="" portal_to="">Da steht 'Freie Fahrt für freie Rubbler' ... was soll das denn heißen?
     </operation>
 
     <operation command="14" item="32" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
@@ -346,7 +346,7 @@
     </operation>
 
     <operation command="8" item="42" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">Besser nicht, solange du nicht weißt, was da drin ist!
+               with_item="" remove_both="" portal_to="">Solange du nicht weißt, was da drin ist, lässt du das besser bleiben!
     </operation>
 
     <operation command="7" item="42" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
@@ -354,11 +354,11 @@
     </operation>
 
     <operation command="12" item="42" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">Du kratzt am Dreck herum, aber er ist total verkrustet und löst sich nicht!
+               with_item="" remove_both="" portal_to="">Du kratzt am Dreck herum, aber er ist völlig verkrustet und löst sich nicht!
     </operation>
 
     <operation command="14" item="49" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">WD80 - schmiert, löst und entfernt Rost doppelt so gut!
+               with_item="" remove_both="" portal_to="">'WD80 - schmiert, löst und entfernt Rost doppelt so gut!' Doppelt so gut wie ... was?
     </operation>
 
     <operation command="14" item="51" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
@@ -374,7 +374,19 @@
     </operation>
 
     <operation command="14" item="57" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">Unten steht drauf: '40 Jahre Atari CX40!'
+               with_item="" remove_both="" portal_to="">'40 Jahre Atari CX40 - Sonderedition'
+    </operation>
+
+    <operation command="8" item="20" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Du bist kein guter Ballspieler!
+    </operation>
+
+    <operation command="8" item="44" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Du setzt dich kurz hin. Und du stehst wieder auf!
+    </operation>
+
+    <operation command="9" item="44" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Manchmal, aber nur manchmal, haben Stühle ein kleines bisschen Haue gern!
     </operation>
 
 </items>

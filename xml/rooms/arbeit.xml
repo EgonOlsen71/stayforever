@@ -11,11 +11,13 @@
         <exit room="flur2">w</exit>
     </exits>
     <items>
+        <item>0</item>
         <item>4</item>
+        <item>44</item>
     </items>
     <operations>
         <operation command="12" item="4" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Der Computer ist an, aber gesperrt! Auf einem Zettel am Bildschirm steht 'Hinter den toten Augen!' - Aha!
+                   with_item="" remove_both="" portal_to="">Der Computer läuft, ist aber gesperrt! Auf einem Zettel am Bildschirm steht 'Hinter den toten Augen!' - Aha!
         </operation>
         <operation command="8" item="4" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Ohne Passwort klappt das nicht!

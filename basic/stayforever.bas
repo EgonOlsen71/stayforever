@@ -8,7 +8,7 @@
 
 500 get a$:if a$="" then 500
 505 for i=0 to 24:sys 59626:next
-510 poke 646,1:printchr$(147);"Stelle Zeit auf 1988...":poke 646,0
+510 poke 646,1:printchr$(147);"Reise ins Hauptquartier...":poke 646,0
 520 for i=0 to 10
 530 print "load";chr$(34);"xam";chr$(34);",";dn%;",1":next
 535 print chr$(19);
@@ -25,11 +25,11 @@
 2030 if x<0 then b$=right$(a$, x+l)
 2040 gosub 600:print b$;:next:return
 
-10000 data 1," BROTQUEST II - Kiss me, Amiga"
-10010 data 12,"  ----------------------------- ",0,""
+10000 data 1," Stay Forever - Das Adventure"
+10010 data 12,"  ---------------------------- ",0,""
 10020 data 7," ein Textadventure von ",5," EgonOlsen71 ",0,"",0,""
-10030 data 1," Fruehling 1988, das Geld ist ",15," knapp und der C64 "
-10040 data 12," ist defekt! ", 11," Ein Amiga muss dennoch her... "
+10030 data 1," Eine Folge muss aufgenommen werden ",15," aber Christian ist weg "
+10040 data 12," Reise nach Nuernberg und finde ", 11," heraus, was passiert ist! "
 10050 data 0,"",0,"",1," Nutze Befehle wie: ", 10," schau schrank "
 10060 data 15," oder ", 10," benutze hammer mit nagel ", 12," oder auch "
 10070 data 10," gib mann die diskette ", 11," um zum Ziel zu kommen. "

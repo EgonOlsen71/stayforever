@@ -4,7 +4,7 @@
         Der kleine Vorgarten wirkt gepflegt aber unspektakulär. Er wird zur Straße hin durch eine niedrige Hecke begrenzt.
         Ein paar Wiesenblumen setzen farbige Akzente gegen das spärliche Grün des Rasens. Dir scheint, als herrsche hier eine ungewöhnliche Stille.
         Vielleicht sind deine Nerven aber auch einfach nur überreizt.
-        |Im Westen hat die Familie ein kleines Blumenbeet angelegt, im Nordosten führt ein Plattenweg hinter das Haus. Im Südwesten liegt die Straße, an der das Taxi wartet.
+        |Im Westen hat die Familie ein kleines Blumenbeet angelegt, im Nordosten führt ein Plattenweg hinter das Haus. Im Südwesten liegt die Straße, an der das Taxi immer noch wartet.
     </desc>
     <exits>
         <exit room="portal6">sw</exit>
@@ -18,10 +18,10 @@
     </items>
     <operations>
         <operation command="9" item="34" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Hilft ja nichts! Du trittst kräftig gegen die Tür! Aber gesagt, es hilft nichts!
+                   with_item="" remove_both="" portal_to="">Hilft ja nichts! Du trittst kräftig gegen die Tür! Aber wie gesagt, es hilft nichts!
         </operation>
         <operation command="13" item="34" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">'Hallo? Christian' Bist du da?' - Du horchst angestrengt aber nur die Stille antwortet dir!
+                   with_item="" remove_both="" portal_to="">'Hallo? Christian! Bist du da?' - Du horchst angestrengt aber nur die Stille antwortet dir!
         </operation>
         <operation command="8" item="34" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Du klopfst an die Tür - keine Antwort!
@@ -41,8 +41,8 @@
         <operation command="14" item="35" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">'Familie Schmidt'
         </operation>
-        <operation command="8" item="34" unique="1" remove_inv="" remove_room="" add_room="" add_inv="" unlock="n"
-                   with_item="39" remove_both="1" portal_to="">Der Schlüssel passt perfekt, die Tür schwingt auf.
+        <operation command="8" item="34" unique="1" remove_inv="39" remove_room="34" add_room="" add_inv="" unlock="n"
+                   with_item="39" remove_both="" portal_to="">Der Schlüssel passt perfekt, die Tür schwingt auf.
         </operation>
     </operations>
 </room>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <room id="11" name="Hauptbahnhof Nuernberg">
-    <desc>Der Vorplatz ist nicht sehr groß, aber das Gebäude wirkt irgendwie ansehnlicher als das in Karlsruhe.
-        Genauer gesagt, ist es vielleicht nicht schöner, aber es entspricht mehr dem typischen Bild,
-        das man von einem Bahnhof hat - im Guten wie im Schlechten.|
-        Auf dem Platz hüpfen ein paar Tauben umher, während in einer Losbude eine junge Verkäuferin auf Kundschaft wartet.|
+    <desc>Der Vorplatz ist nicht besonders weitläufig, aber das Gebäude wirkt irgendwie ansehnlicher als das in Karlsruhe.
+        Es ist vielleicht nicht schöner, aber es entspricht eher dem typischen, klassischen Bild eines Hauptbahnhofs in einer deutschen Stadt.|
+        Auf dem Platz hüpfen ein paar Tauben umher, während in einer kleinen Losbude eine junge Verkäuferin auf Kundschaft wartet.|
         Im Südosten geht es zu den Gleisen, im Westen ist der Taxistand.
     </desc>
     <exits>

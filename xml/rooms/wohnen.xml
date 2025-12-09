@@ -12,6 +12,7 @@
         <exit room="flur2">sw</exit>
     </exits>
     <items>
+        <item>40</item>
         <item>50</item>
     </items>
     <operations>

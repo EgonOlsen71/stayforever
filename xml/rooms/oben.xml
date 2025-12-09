@@ -2,7 +2,8 @@
 <room id="22" name="Erster Stock">
     <desc>
         Du bist im ersten Stock des Hauses. Der kleine Flurbereich hier oben ist der Ausgangspunkt zu den privaten Räumen.
-        Von hier aus führen zwei Türen ab. Im Westen liest das Bad und im Osten das Schlafzimmer.
+        An einer Wand hängt ein Poster eines Videospieles.|
+        Von hier aus gehen zwei Türen ab. Im Westen liegt das Bad und im Osten das Schlafzimmer.
         |Eine Treppe führt runter in den Flur.
     </desc>
     <exits>

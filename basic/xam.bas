@@ -283,6 +283,7 @@
 50160 if t%<>-1 then cv%(0)=t%:t%=-1:goto 50230
 50170 gosub 50400
 50185 if t%=-1 then gosub 50300:gosub 50400
+50186 if t%=-1 then gosub 50350:gosub 50400
 50190 if t%=-1 then 50230
 50200 if cv%(1)=-1 then cv%(1)=t%:t%=-1
 50210 if cv%(2)=-1 then cv%(2)=t%:t%=-1
@@ -298,9 +299,16 @@
 50310 if (right$(a$,1)<>"n") then return
 50320 a$=left$(a$,len(a$)-1):return
 
+50350 rem ... or automat'en
+50355 if len(a$)<2 then return
+50360 if (right$(a$,1)<>"e") then return
+50370 a$=left$(a$,len(a$)-1):return
+
 50400 rem find item in list
-50410 for p=0 to ti%:if il$(p)=a$ then t%=p:p=256
-50420 next:return
+50410 p%=0
+50415 if il$(p%)=a$ then t%=p%:return
+50420 p%=p%+1:if p%<=ti% then 50415
+50430 return
 
 50500 rem detect chained commands
 50505 gosub 50600
@@ -552,12 +560,12 @@
 
 60000 rem init
 60002 print "Einen Moment..."
-60005 mx%=29:mr%=35:mi%=60:mc%=16:xo%=13:cb$=chr$(13)+"> ":lr%=0:mo%=32:ox%=6
+60005 mx%=29:mr%=28:mi%=60:mc%=16:xo%=13:cb$=chr$(13)+"> ":lr%=0:mo%=36:ox%=6
 60006 al$="alles":ms%=5:dim i,ii,p,pp,ad:fi$="save.dat":ba=49152:ad=ba
 60010 dim it$(60), il$(60), mv%(60), ti%: rem all items (mi%)
 60020 dim rd$(24), pl%, rd%: rem current room's description
 60030 dim ex$(8), xn$(8), lk%(8), el%: rem crt. room's exits and names
-60035 dim lx$(35,3): rem flag, which exits are unlocked (mr%)
+60035 dim lx$(28,3): rem flag, which exits are unlocked (mr%)
 60040 dim ri$(8), il%: rem current room's items
 60050 dim iv%(60), ic%: rem inventory (mi%)
 60055 dim ip%(20), tc%: rem items still in the room (20 is generous)
@@ -566,13 +574,13 @@
 60080 dim cp$(8), cv%(8): rem lexer results
 60090 dim cm$(mc%, 5), cv$(mc%): rem commands
 60100 dim id%(60): rem item descriptions' addresses (mi%)
-60110 dim rv%(35,8): rem additional room inventory (mr%)
+60110 dim rv%(28,8): rem additional room inventory (mr%)
 60120 dim rs%(60): rem flag, that an item lies somewhere else (mi%)
 60130 for i=0 to mr%:for p=0 to 8:rv%(i,p)=-1:next p,i: rem clear room inv.
 60140 dim dr$(9):for i=0 to 9:read dr$(i):next: rem direction strings
 60150 dim op%(13,10), op$(13,6), oc%: rem possible operations in a room (xo%) , ox%
 60160 dim od$(29), od%: rem operations applied (command ID_item 1_item_2) (mx%)
-60170 dim og%(32,10), og$(32,5), gc%: rem ops. on items in the inventory (mo%)
+60170 dim og%(36,10), og$(36,5), gc%: rem ops. on items in the inventory (mo%)
 60180 dim ac%(10): rem actions of the current operation
 60190 rl$="": rem human readable room name
 60200 po%=0: rem point (each unique operation increases them by 10)
@@ -594,12 +602,12 @@
 61206 ii=0:j%=0
 61220 sx$="items.def":gosub 45100
 61230 gosub 61700:ii=ii+1
-61250 id$="":for i=1 to len(a$)
-61260 sx$=mid$(a$,i,1):if sx$=";" then 61280
-61270 id$=id$+sx$:next
-61280 ii=val(id$):tf$=mid$(a$,i+1,1):mv%(ii)=1
+61250 id$="":i%=1
+61260 sx$=mid$(a$,i%,1):if sx$=";" then 61280
+61270 id$=id$+sx$:i%=i%+1:if i%<=len(a$) then 61260
+61280 ii=val(id$):tf$=mid$(a$,i%+1,1):mv%(ii)=1
 61290 if tf$="0" then mv%(ii)=0
-61300 it$(ii)=right$(a$,len(a$)-i-2)
+61300 it$(ii)=right$(a$,len(a$)-i%-2)
 61302 tx$=it$(ii):gosub 63100:il$(ii)=tx$:print".";
 61305 gosub 61400
 61310 if st=64 then 61330

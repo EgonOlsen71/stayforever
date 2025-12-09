@@ -2,7 +2,7 @@
 <room id="12" name="Taxistand">
     <desc>Der Taxistand vor dem Bahnhof ist voller Taxifahrer, die geduldig auf neue Kunden warten.
         Einer der Fahrer nutzt die Wartezeit und poliert gewissenhaft die Motorhaube seines Fahrzeugs.
-        Er scheint entschlossen, den besten Eindruck zu machen.|Im Osten geht es zum Vorplatz.
+        Er ist sichtlich darauf bedacht, einen guten Eindruck zu hinterlassen.|Im Osten geht es zum Vorplatz.
     </desc>
     <exits>
         <exit room="vorplatz">o</exit>

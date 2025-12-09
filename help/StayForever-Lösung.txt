@@ -57,11 +57,25 @@ h
 untersuche poster
 untersuche riss
 nimm notiz
+w
 benutze spiegel mit notiz
 o
 o
-benutze wd60 an schrank
+benutze wd80 an schrank
 nimm joystick
+w
+r
+o
+benutze passwort mit computer
+benutze excel
+nimm code
+w
+benutze code mit tastenfeld
+r
+benutze spiel mit regal
+benutze joystick mit eisentuer
+n
+
 
 
 
