@@ -22,6 +22,9 @@
         <operation command="8" item="4" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Ohne Passwort klappt das nicht!
         </operation>
+        <operation command="8" item="4" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="57" remove_both="" portal_to="">Der ist 9-Pin, nicht USB!
+        </operation>
         <operation command="8" item="4" unique="0" remove_inv="" remove_room="4" add_room="58" add_inv="" unlock=""
                    with_item="51" remove_both="" portal_to="">Du entsperrst den Computer mit dem Passwort. Ein Excel-Sheet ist auf dem Tab 'Geheim' geöffnet. Na, das ist ja geheim!
         </operation>

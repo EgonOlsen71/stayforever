@@ -582,7 +582,7 @@
 60000 rem init
 60002 print "Einen Moment..."
 60004 py%=peek(1)=0:rem python mode if py% = 0
-60005 mx%=29:mr%=28:mi%=60:mc%=16:xo%=13:cb$=chr$(13)+"> ":lr%=0:mo%=37:ox%=6
+60005 mx%=30:mr%=28:mi%=60:mc%=16:xo%=13:cb$=chr$(13)+"> ":lr%=0:mo%=37:ox%=6
 60006 al$="alles":ms%=5:dim i,ii,p,pp,ad:fi$="save.dat":ba=49152:ad=ba
 60010 dim it$(60), il$(60), mv%(60), ti%: rem all items (mi%)
 60020 dim rd$(24), pl%, rd%: rem current room's description
@@ -601,7 +601,7 @@
 60130 for i=0 to mr%:for p=0 to 8:rv%(i,p)=-1:next p,i: rem clear room inv.
 60140 dim dr$(9):for i=0 to 9:read dr$(i):next: rem direction strings
 60150 dim op%(13,10), op$(13,6), oc%: rem possible operations in a room (xo%) , ox%
-60160 dim od$(29), od%: rem operations applied (command ID_item 1_item_2) (mx%)
+60160 dim od$(30), od%: rem operations applied (command ID_item 1_item_2) (mx%)
 60170 dim og%(37,10), og$(37,5), gc%: rem ops. on items in the inventory (mo%)
 60180 dim ac%(10): rem actions of the current operation
 60190 rl$="": rem human readable room name

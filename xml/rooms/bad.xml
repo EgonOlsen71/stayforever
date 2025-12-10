@@ -16,7 +16,10 @@
     </items>
     <operations>
         <operation command="8" item="47" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Du öffnest den Hahn, aber es kommt kein Wasser. Er ist offensichtlich defekt.
+                   with_item="" remove_both="" portal_to="">Du öffnest den Hahn, aber es kommt kein Wasser. Er ist offensichtlich defekt!
+        </operation>
+        <operation command="8" item="47" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="49" remove_both="" portal_to="">Der Hahn sitzt nicht fest, es kommt nur kein Wasser!
         </operation>
         <operation command="8" item="54" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Gut siehst du aus!
@@ -29,6 +32,9 @@
         </operation>
         <operation command="12" item="55" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                      with_item="" remove_both="" portal_to="">Du greifst beherzt in die Toilette und ... nee, machst du doch nicht!
+        </operation>
+        <operation command="8" item="55" unique="1" remove_inv="42" remove_room="" add_room="" add_inv="49" unlock=""
+                   with_item="42" remove_both="" portal_to="">Du schwenkst die Dose im Toilettenwasser hin und her, bis sie sauber ist. Es ist WD80!
         </operation>
         <operation command="8" item="55" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Abblende ... es plätschert, es rauscht ... Aufblende!

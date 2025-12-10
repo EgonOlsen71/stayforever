@@ -178,6 +178,7 @@ def INIT():
     global VAR_J_int
     global VAR_SK_int
     global CONST_150
+    global CONST_152
     global CONST_151
     global CONST_98
     global CONST_99
@@ -426,33 +427,34 @@ def INIT():
     CONST_122="io-eRROR: "
     CONST_123=191
     CONST_124="eINEN mOMENT..."
-    CONST_125=60
-    CONST_126="> "
-    CONST_127=37
-    CONST_128="ALLES"
-    CONST_129="SAVE.DAT"
-    CONST_130=49152
-    CONST_131=";"
-    CONST_132=","
-    CONST_133="lADE gEGENSTAENDE..."
-    CONST_134="ITEMS.DEF"
-    CONST_135="0"
-    CONST_136=53179
-    CONST_137="lADE bEFEHLE..."
-    CONST_138="COMMANDS.DEF"
-    CONST_139="ENDID.DEF"
-    CONST_140="aUSGAENGE SIND: "
-    CONST_141="dU SIEHST: "
-    CONST_142=11
-    CONST_143=55296
-    CONST_144=55335
-    CONST_145=1024
-    CONST_146=1063
-    CONST_147=160
-    CONST_148=19
-    CONST_149=18
-    CONST_150=146
-    CONST_151=147
+    CONST_125=30
+    CONST_126=60
+    CONST_127="> "
+    CONST_128=37
+    CONST_129="ALLES"
+    CONST_130="SAVE.DAT"
+    CONST_131=49152
+    CONST_132=";"
+    CONST_133=","
+    CONST_134="lADE gEGENSTAENDE..."
+    CONST_135="ITEMS.DEF"
+    CONST_136="0"
+    CONST_137=53179
+    CONST_138="lADE bEFEHLE..."
+    CONST_139="COMMANDS.DEF"
+    CONST_140="ENDID.DEF"
+    CONST_141="aUSGAENGE SIND: "
+    CONST_142="dU SIEHST: "
+    CONST_143=11
+    CONST_144=55296
+    CONST_145=55335
+    CONST_146=1024
+    CONST_147=1063
+    CONST_148=160
+    CONST_149=19
+    CONST_150=18
+    CONST_151=146
+    CONST_152=147
     _dataPtr=0
     _datas=["N","S","W","O","NW","SW","NO","SO","H","R"]
     VAR_DN_int=0
@@ -544,7 +546,7 @@ def INIT():
     VAR_IT_STRVAR_array=[""]*61
     VAR_OP_STRVAR_array=[""]*98
     VAR_OG_STRVAR_array=[""]*228
-    VAR_OD_STRVAR_array=[""]*30
+    VAR_OD_STRVAR_array=[""]*31
     VAR_LX_STRVAR_array=[""]*116
     VAR_DR_STRVAR_array=[""]*10
     VAR_CM_STRVAR_array=[""]*102
@@ -10054,11 +10056,11 @@ def line_60005():
     global CONST_125
     global CONST_127
     global CONST_126
+    global CONST_128
     global CONST_116
     global CONST_59
     global _stack
     global VAR_MX_int
-    global CONST_24
     global Y_REG
     global VAR_OX_int
     global CONST_68
@@ -10068,19 +10070,19 @@ def line_60005():
     global CONST_1
     global A_REG
     global VAR_MO_int
-    Y_REG=CONST_24
+    Y_REG=CONST_125
     VAR_MX_int=Y_REG
     VAR_MX_int=int(VAR_MX_int)
     Y_REG=CONST_59
     VAR_MR_int=Y_REG
     VAR_MR_int=int(VAR_MR_int)
-    Y_REG=CONST_125
+    Y_REG=CONST_126
     VAR_MI_int=Y_REG
     VAR_MI_int=int(VAR_MI_int)
     Y_REG=CONST_116
     VAR_XO_int=Y_REG
     VAR_XO_int=int(VAR_XO_int)
-    B_REG=CONST_126
+    B_REG=CONST_127
     _stack.append(B_REG)
     Y_REG=CONST_116
     CHR()
@@ -10090,7 +10092,7 @@ def line_60005():
     Y_REG=CONST_1
     VAR_LR_int=Y_REG
     VAR_LR_int=int(VAR_LR_int)
-    Y_REG=CONST_127
+    Y_REG=CONST_128
     VAR_MO_int=Y_REG
     VAR_MO_int=int(VAR_MO_int)
     Y_REG=CONST_68
@@ -10099,24 +10101,24 @@ def line_60005():
     return 60006
 def line_60006():
     global CONST_129
-    global CONST_128
     global Y_REG
     global VAR_AL_STRVAR
     global VAR_AD
     global CONST_63
     global B_REG
     global CONST_130
+    global CONST_131
     global VAR_FI_STRVAR
     global VAR_BA
     global VAR_MS_int
-    B_REG=CONST_128
+    B_REG=CONST_129
     VAR_AL_STRVAR=B_REG
     Y_REG=CONST_63
     VAR_MS_int=Y_REG
     VAR_MS_int=int(VAR_MS_int)
-    B_REG=CONST_129
+    B_REG=CONST_130
     VAR_FI_STRVAR=B_REG
-    Y_REG=CONST_130
+    Y_REG=CONST_131
     VAR_BA=Y_REG
     Y_REG=VAR_BA
     VAR_AD=Y_REG
@@ -10299,11 +10301,11 @@ def line_61020():
     global VAR_TX_STRVAR
     global C_REG
     global B_REG
-    global CONST_131
+    global CONST_132
     global X_REG
     global VAR_I_int
     global CONST_1
-    B_REG=CONST_131
+    B_REG=CONST_132
     _stack.append(B_REG)
     C_REG=VAR_I_int
     B_REG=VAR_TX_STRVAR
@@ -10326,13 +10328,13 @@ def GOSUBCONT126():
     global VAR_LI_int
     global Y_REG
     global B_REG
-    global CONST_132
+    global CONST_133
     global X_REG
     global VAR_SX_STRVAR
     global VAR_I_int
     global A_REG
     global CONST_2
-    B_REG=CONST_132
+    B_REG=CONST_133
     A_REG=VAR_SX_STRVAR
     CONCAT()
     VAR_SX_STRVAR=A_REG
@@ -10433,9 +10435,9 @@ def line_61110():
 def line_61200():
     return 61205
 def line_61205():
-    global CONST_133
+    global CONST_134
     global A_REG
-    A_REG=CONST_133
+    A_REG=CONST_134
     STROUT()
     return 61206
 def line_61206():
@@ -10452,9 +10454,9 @@ def line_61206():
     return 61220
 def line_61220():
     global B_REG
-    global CONST_134
+    global CONST_135
     global VAR_SX_STRVAR
-    B_REG=CONST_134
+    B_REG=CONST_135
     VAR_SX_STRVAR=B_REG
     GOSUB("GOSUBCONT128")
     return 45100
@@ -10493,7 +10495,7 @@ def line_61260():
     global VAR_A_STRVAR
     global C_REG
     global B_REG
-    global CONST_131
+    global CONST_132
     global X_REG
     global VAR_SX_STRVAR
     global VAR_I_int
@@ -10505,7 +10507,7 @@ def line_61260():
     B_REG=VAR_A_STRVAR
     MID()
     VAR_SX_STRVAR=A_REG
-    B_REG=CONST_131
+    B_REG=CONST_132
     A_REG=VAR_SX_STRVAR
     SEQ()
     _zeroflag=(0 if X_REG==CONST_1 else 1)
@@ -10594,11 +10596,11 @@ def line_61290():
     global _zeroflag
     global VAR_TF_STRVAR
     global B_REG
-    global CONST_135
+    global CONST_136
     global X_REG
     global CONST_1
     global A_REG
-    B_REG=CONST_135
+    B_REG=CONST_136
     A_REG=VAR_TF_STRVAR
     SEQ()
     _zeroflag=(0 if X_REG==CONST_1 else 1)
@@ -10924,14 +10926,14 @@ def line_61450():
     global _zeroflag
     global Y_REG
     global VAR_AD
-    global CONST_136
+    global CONST_137
     global X_REG
     global CONST_1
     Y_REG=VAR_P
     X_REG=VAR_AD
     X_REG=X_REG+Y_REG
     VAR_AD=X_REG
-    Y_REG=CONST_136
+    Y_REG=CONST_137
     X_REG=VAR_AD
     X_REG= (-1 if X_REG>Y_REG else 0)
     _zeroflag=(0 if X_REG==CONST_1 else 1)
@@ -10982,21 +10984,21 @@ def line_61460():
 def line_61500():
     return 61510
 def line_61510():
-    global CONST_137
+    global CONST_138
     global A_REG
-    A_REG=CONST_137
+    A_REG=CONST_138
     STROUT()
     return 61520
 def line_61520():
     global VAR_P
     global Y_REG
     global B_REG
-    global CONST_138
+    global CONST_139
     global VAR_SX_STRVAR
     global CONST_1
     Y_REG=CONST_1
     VAR_P=Y_REG
-    B_REG=CONST_138
+    B_REG=CONST_139
     VAR_SX_STRVAR=B_REG
     GOSUB("GOSUBCONT134")
     return 45100
@@ -11152,10 +11154,10 @@ def line_61590():
     CLOSE()
     return 61600
 def line_61600():
+    global CONST_140
     global B_REG
-    global CONST_139
     global VAR_SX_STRVAR
-    B_REG=CONST_139
+    B_REG=CONST_140
     VAR_SX_STRVAR=B_REG
     GOSUB("GOSUBCONT139")
     return 45100
@@ -11678,10 +11680,10 @@ def line_62320():
     global VAR_A_STRVAR
     global C_REG
     global B_REG
-    global CONST_132
+    global CONST_133
     global X_REG
     global CONST_1
-    B_REG=CONST_132
+    B_REG=CONST_133
     _stack.append(B_REG)
     C_REG=VAR_I
     B_REG=VAR_A_STRVAR
@@ -11887,10 +11889,10 @@ def SKIP219():
 def line_62530():
     global _memory
     global CONST_69
-    global CONST_140
+    global CONST_141
     global A_REG
     _memory[646]=int(CONST_69) & 255;
-    A_REG=CONST_140
+    A_REG=CONST_141
     STROUT()
     return 62540
 def line_62540():
@@ -11980,10 +11982,10 @@ def SKIP221():
 def line_62670():
     global CONST_57
     global _memory
-    global CONST_141
+    global CONST_142
     global A_REG
     _memory[646]=int(CONST_57) & 255;
-    A_REG=CONST_141
+    A_REG=CONST_142
     STROUT()
     return 62680
 def line_62680():
@@ -11994,14 +11996,14 @@ def line_62680():
     global VAR_TC_int
     global VAR_A_STRVAR
     global Y_REG
-    global CONST_142
+    global CONST_143
     global B_REG
     global X_REG
     global CONST_1
     global CONST_2
     B_REG=CONST_11
     VAR_A_STRVAR=B_REG
-    Y_REG=CONST_142
+    Y_REG=CONST_143
     VAR_II=Y_REG
     Y_REG=CONST_1
     VAR_I=Y_REG
@@ -12064,7 +12066,7 @@ def SKIP222():
 def line_62700():
     global _zeroflag
     global VAR_II
-    global CONST_127
+    global CONST_128
     global Y_REG
     global B_REG
     global X_REG
@@ -12074,7 +12076,7 @@ def line_62700():
     LEN()
     Y_REG=VAR_II
     X_REG=X_REG+Y_REG
-    Y_REG=CONST_127
+    Y_REG=CONST_128
     X_REG= (-1 if X_REG>Y_REG else 0)
     _zeroflag=(0 if X_REG==CONST_1 else 1)
     if _zeroflag==1:
@@ -12603,12 +12605,12 @@ def line_63010():
     global VAR_P
     global _stack
     global Y_REG
+    global CONST_145
     global CONST_144
-    global CONST_143
     global CONST_2
-    Y_REG=CONST_143
-    VAR_P=Y_REG
     Y_REG=CONST_144
+    VAR_P=Y_REG
+    Y_REG=CONST_145
     _stack.append(Y_REG)
     Y_REG=CONST_2
     _stack.append(Y_REG)
@@ -12633,12 +12635,12 @@ def line_63015():
     global VAR_P
     global _stack
     global Y_REG
-    global CONST_145
+    global CONST_147
     global CONST_146
     global CONST_2
-    Y_REG=CONST_145
-    VAR_P=Y_REG
     Y_REG=CONST_146
+    VAR_P=Y_REG
+    Y_REG=CONST_147
     _stack.append(Y_REG)
     Y_REG=CONST_2
     _stack.append(Y_REG)
@@ -12649,11 +12651,11 @@ def FORLOOP63():
     global _zeroflag
     global Y_REG
     global _memory
-    global CONST_147
+    global CONST_148
     global CONST_1
     global A_REG
     Y_REG=VAR_P
-    _memory[int(Y_REG)]=int(CONST_147) & 255
+    _memory[int(Y_REG)]=int(CONST_148) & 255
     NEXT("0")
     _zeroflag=(0 if A_REG==CONST_1 else 1)
     if _zeroflag==0:
@@ -12661,14 +12663,14 @@ def FORLOOP63():
     return 63030
 def line_63030():
     global Y_REG
+    global CONST_150
     global CONST_149
-    global CONST_148
     global VAR_RL_STRVAR
     global A_REG
-    Y_REG=CONST_148
+    Y_REG=CONST_149
     CHR()
     STROUT()
-    Y_REG=CONST_149
+    Y_REG=CONST_150
     CHR()
     STROUT()
     A_REG=VAR_RL_STRVAR
@@ -12707,8 +12709,8 @@ def line_63036():
     global CONST_12
     global Y_REG
     global _memory
-    global CONST_150
-    Y_REG=CONST_150
+    global CONST_151
+    Y_REG=CONST_151
     CHR()
     STROUT()
     LINEBREAK()
@@ -12934,12 +12936,12 @@ def line_63310():
     global CONST_57
     global Y_REG
     global _memory
-    global CONST_151
+    global CONST_152
     global CONST_1
     Y_REG=CONST_57
     CHR()
     STROUT()
-    Y_REG=CONST_151
+    Y_REG=CONST_152
     CHR()
     STROUT()
     LINEBREAK()
