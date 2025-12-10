@@ -348,7 +348,7 @@ public class Converter {
 	private String getText(Element it) {
 		String tmp = it.getTextContent().trim();
 		tmp = tmp.replace("\"", "'").replace(":", ".");
-		return tmp;
+		return tmp.trim();
 	}
 
 	private String getZeroValue(String tmp) {

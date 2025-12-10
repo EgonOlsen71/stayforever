@@ -1,6 +1,6 @@
 del stayforever_AD.d64
-c1541 -format stayforever,bq d64 stayforever_AD.d64
-call ..\build\c1541 ..\build\stayforever_AD.d64 -write ++stayforever.prg stayforever,p
+c1541 -format "stay forever",sf d64 stayforever_AD.d64
+call ..\build\c1541 ..\build\stayforever_AD.d64 -write ++stayforever.prg "stay forever",p
 call ..\build\c1541 ..\build\stayforever_AD.d64 -write ++xam-c.prg xam,p
 cd ..\build
 cd ..\seq

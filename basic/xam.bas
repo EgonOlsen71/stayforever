@@ -165,7 +165,7 @@
 
 43150 rem flag as unique
 43160 od$(od%)=tf$:od%=od%+1:if od%>mx% then 42420
-43165 po%=po%+10:gosub 63000:poke 646,3
+43165 po%=po%+10:gosub 63005:poke 646,3
 43170 return
 
 43200 rem remove from inventory (i.e. flag as used, id in c%)
@@ -581,6 +581,7 @@
 
 60000 rem init
 60002 print "Einen Moment..."
+60004 py%=peek(1)=0:rem python mode if py% = 0
 60005 mx%=29:mr%=28:mi%=60:mc%=16:xo%=13:cb$=chr$(13)+"> ":lr%=0:mo%=37:ox%=6
 60006 al$="alles":ms%=5:dim i,ii,p,pp,ad:fi$="save.dat":ba=49152:ad=ba
 60010 dim it$(60), il$(60), mv%(60), ti%: rem all items (mi%)
@@ -666,7 +667,7 @@
 
 62000 rem load room data
 62005 gosub 62100:open2,dn%,2,rn$:gosub 61700:rd%=val(a$):poke 646,15
-62008 gosub 61700:rl$=a$
+62008 gosub 61700:rl$=a$:if py% then gosub 63005
 62010 input#2,a$:gosub 59860: rem no gosub 61700 for performance reasons
 62020 if a$="***" then md%=md%+1:goto 62050
 62030 tx$=a$:gosub 61000:a$=tx$
@@ -739,6 +740,7 @@
 62950 next i:return
 
 63000 rem print human readable room name
+63002 if py% then return
 63005 i%=peek(211):ii%=peek(214):poke 646,13
 63010 for p=55296 to 55335:poke p, 13:next
 63015 for p=1024 to 1063:poke p, 160:next
