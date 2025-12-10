@@ -16,10 +16,10 @@
                    with_item="" remove_both="" portal_to="">Der Schrank passt eigentlich eher in einen Keller als in ein Schlafzimmer. Komisch!
         </operation>
         <operation command="8" item="7" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-                   with_item="" remove_both="" portal_to="">Du wendelst vor der Packung umher und die LED geht an. Aber sie geht wieder aus, sowie du die Packung in den Raum drehst. So wird das nichts!
+                   with_item="" remove_both="" portal_to="">Du wedelst vor der Packung umher und die LED geht an. Aber sie geht wieder aus, sowie du die Packung in den Raum drehst. So wird das nichts!
         </operation>
         <operation command="8" item="7" unique="1" remove_inv="7" remove_room="" add_room="59" add_inv="" unlock=""
-                   with_item="5" remove_both="" portal_to="">Du legst die Packungs ins Regal und bewegst dich in den Raum hinein. Die LED geht an und beleuchtet eine Eisentür am anderen Ende des Raumes!
+                   with_item="5" remove_both="" portal_to="">Du legst die Packung ins Regal und bewegst dich in den Raum hinein. Die LED geht an und beleuchtet eine Eisentür am anderen Ende des Raumes!
         </operation>
         <operation command="8" item="59" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Du klopfst an die Tür, keine Antwort!

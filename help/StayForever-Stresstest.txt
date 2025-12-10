@@ -1,0 +1,266 @@
+benutze stuhl
+schau stuhl
+untersuche stuhl
+benutze tisch
+schau tisch
+schau regal
+benutze computer
+schau computer
+untersuche computer
+o
+s
+benutze blechschrank
+schau blechschrank
+untersuche blechschrank
+tritt blechschrank
+nimm besen
+benutze besen
+schau besen
+untersuche besen
+n
+schau poster
+untersuche poster
+lies poster
+nimm sticker
+benutze sticker
+schau sticker
+untersuche sticker
+lies sticker
+w
+untersuche tisch
+schau schublade
+untersuche schublade
+oeffne schublade
+schau gamestar
+untersuche gamestar
+lies gamestar
+untersuche regal
+schau behaelter
+untersuche behaelter
+benutze besen mit behaelter
+nimm alles
+schau schluessel
+untersuche schluessel
+o
+n
+nimm paket
+schau paket
+untersuche paket
+lies paket
+oeffne paket
+schau garage
+untersuche garage
+oeffne garage
+benutze schluessel mit garage
+schau fahrrad
+untersuche fahrrad
+n
+schau junge
+untersuche junge
+rede junge
+tritt junge
+schau controller
+untersuche controller
+gib dem jungen den controller
+nimm ball
+benutze ball
+schau ball
+untersuche ball
+lies ball
+s
+benutze fahrrad
+schau arbeiter
+untersuche arbeiter
+rede arbeiter
+tritt arbeiter
+schau laterne
+untersuche laterne
+lies laterne
+benutze sticker an laterne
+schau fans
+untersuche fans
+rede fans
+tritt fans
+gib den ball den fans
+so
+so
+nimm muenze
+schau muenze
+untersuche muenze
+lies muenze
+s
+benutze automat
+schau automat
+untersuche automat
+schau fahrplan
+untersuche fahrplan
+lies fahrplan
+sw
+schau schaffner
+untersuche schaffner
+tritt schaffner
+gib dem schaffner die gamestar
+schau zug
+untersuche zug
+benutze zug
+schau muell
+untersuche muell
+benutze besen mit muell
+untersuche muell
+benutze los
+schau los
+untersuche los
+lies los
+benutze muenze mit los
+nw
+benutze verkaeuferin
+schau verkaeuferin
+untersuche verkaeuferin
+rede verkaeuferin
+tritt verkaeuferin
+gib verkaeuferin gamestar
+schau gewinnlos
+untersuche gewinnlos
+lies gewinnlos
+gib verkaeuferin das gewinnlos
+w
+schau gutschein
+untersuche gutschein
+lies gutschein
+gib fahrer den gutschein
+schau fahrer
+tritt fahrer
+untersuche fahrer
+no
+no
+n
+schau anzug
+oeffne anzug
+benutze anzug
+untersuche anzug
+nimm brechstange
+nimm dose
+benutze brechstange
+schau brechstange
+untersuche brechstange
+benutze dose
+schau dose
+untersuche dose
+lies dose
+s
+sw
+w
+schau tentakel
+untersuche tentakel
+tritt tentakel
+schau mario
+untersuche mario
+tritt mario
+benutze brechstange an tentakel
+o
+schau tuer
+untersuche tuer
+tritt tuer
+oeffne tuer
+rede tuer
+schau ersatzschluessel
+untersuche ersatzschluessel
+benutze ersatzschluessel mit tuer
+n
+w
+benutze waschbecken
+schau waschbecken
+untersuche waschbecken
+benutze dose in waschbecken
+schau wd80
+untersuche wd80
+lies wd80
+o
+h
+schau poster
+lies poster
+untersuche poster
+schau riss
+untersuche riss
+nimm notiz
+schau notiz
+untersuche notiz
+lies notiz
+w
+schau spiegel
+untersuche spiegel
+benutze spiegel
+benutze toilette
+schau toilette
+untersuche toilette
+benutze waschbecken
+schau waschbecken
+untersuche waschbecken
+benutze spiegel mit notiz
+schau passwort
+untersuche passwort
+lies passwort
+o
+o
+schau schrank
+untersuche schrank
+oeffne schrank
+benutze wd80 an schrank
+nimm joystick
+schau joystick
+untersuche joystick
+lies joystick
+w
+r
+o
+benutze stuhl
+schau stuhl
+untersuche stuhl
+benutze computer
+schau computer
+untersuche computer
+benutze passwort mit computer
+schau excel
+untersuche excel
+lies excel
+benutze excel
+nimm code
+schau code
+untersuche code
+lies code
+w
+benutze tastenfeld
+schau tastenfeld
+untersuche tastenfeld
+schau kellertuer
+untersuche kellertuer
+tritt kellertuer
+oeffne kellertuer
+benutze code mit tastenfeld
+r
+benutze spiel
+schau spiel
+untersuche spiel
+lies spiel
+schau regal
+untersuche regal
+benutze spiel mit regal
+schau eisentuer
+untersuche eisentuer
+tritt eisentuer
+oeffne eisentuer
+benutze joystick mit eisentuer
+n
+schau christian
+untersuche christian
+tritt christian
+rede mit christian
+
+
+
+
+
+
+
+
+
