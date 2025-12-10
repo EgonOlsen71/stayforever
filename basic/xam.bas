@@ -257,9 +257,12 @@
 49100 rem end game
 49110 end
 
+49900 rem clean lexer results
+49910 for i=0 to 8:cv%(i)=-1:cp$(i)="":next:sf%=0:return
+
 50000 rem enter and parse command
 50002 if rd%=lr% then 49000
-50005 for i=0 to 8:cv%(i)=-1:cp$(i)="":next:sf%=0
+50005 gosub 49900
 50010 poke 646,5:print cb$;:cc$="":poke 646,1
 50012 if len(lc$)>0 then cc$=lc$:print lc$:goto 50020
 50015 gosub 63000:poke 19,1:input cc$:poke 19,0:print
@@ -283,8 +286,9 @@
 50155 if t%<>-1 then if cv%(0)<>-1 then er=1:return
 50160 if t%<>-1 then cv%(0)=t%:t%=-1:goto 50230
 50170 gosub 50400
-50185 if t%=-1 then gosub 50300:gosub 50400
+50185 if t%=-1 then aa$=a$:gosub 50300:gosub 50400
 50186 if t%=-1 then gosub 50350:gosub 50400
+50188 if t%=-1 then a$=aa$:gosub 51000
 50190 if t%=-1 then 50230
 50200 if cv%(1)=-1 then cv%(1)=t%:t%=-1
 50210 if cv%(2)=-1 then cv%(2)=t%:t%=-1
@@ -321,31 +325,21 @@
 50620 a$=left$(ct$,2):if a$="es" or a$="ih" or a$="si" then ct$=lo$
 50630 return
 
-51000 rem modify input to match known words (fuzzy stuff...)
-51040 cc%=0:i%=1:cf$=""
-51042 c$=mid$(cc$,i%,1):c%=asc(c$)
-51045 if c%=128 then c%=32: rem handle shifted space
-51050 if (c%<48 or c%>57) then if (c%<65 or c%>90) then if c%<>32 then 51100
-51060 if c%<>32 then ct$=ct$+c$:goto 51080
-51070 rem if len(ct$)>0 then gosub 50500
-51080 if cc%=9 then 51110
-51100 i%=i%+1:if i%<=len(cc$) then 51042
+51000 rem fuzzy search for items
 51110 p%=0
-51120 if il$(p%)=ct$ then cf$=cf$+ct$+" ":ct$="":goto 51900
-51130 a$=il$(p%):gosub 51920
-51140 if a$=ct$ then cf$=cf$+ct$+" ":ct$=""
-51900 if i%=len(cc$) then return
-51910 goto 51042
+51130 b$=il$(p%):gosub 51920
+51140 if t%<>-1 then return
+51150 p%=p%+1:if p%<=ti% then 51130
+51160 return
 
 51920 rem check for similarity
-51925 if len(ct$)<>len(a$) then return
-51930 dc%=0:p%=1
-51935 if mid$(ct$,p%,1)=mid$((a$,p%,1) then 51970
+51925 if len(b$)<>len(a$) then return
+51930 dc%=0:pp%=1
+51935 if mid$(b$,pp%,1)=mid$(a$,pp%,1) then 51970
 51940 dc%=dc%+1
-51945 if dc%>2 or (dc%>1 and len(ct$)<=3) then return
-51950 ct$=a$:return
-51970 p%=p%+1:if p%<=len(ct$) then 51935
-51975 return
+51945 if dc%>2 or (dc%>1 and len(b$)<=3) then return
+51970 pp%=pp%+1:if pp%<=len(b$) then 51935
+51975 t%=p%:return
 
 52000 rem evaluate parsed command
 52005 rr%=0:rt%=0:ff%=0:sk%=0

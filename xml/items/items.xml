@@ -253,6 +253,10 @@
                with_item="" remove_both="" portal_to="">Du fegst ein bisschen vor dich hin!
     </operation>
 
+    <operation command="8" item="10" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Hier wäre seine Eleganz und Aussagekraft verschwendet!
+    </operation>
+
     <operation command="12" item="1" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                with_item="" remove_both="" portal_to="">Der Akku ist leer und ein Ladekabel hast du nicht dabei. So ist es nutzlos!
     </operation>
