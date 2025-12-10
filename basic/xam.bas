@@ -266,13 +266,14 @@
 50020 poke 646,3:ct$="":lc$="":if len(cc$)=0 then cc$="help"
 50030 er=0:tx$=cc$:gosub 63100:cc$=tx$+" ": rem add space to ease lexing
 50035 gosub 41000
-50040 cc%=0:for i=1 to len(cc$):c$=mid$(cc$,i,1):c%=asc(c$)
+50040 cc%=0:i%=1
+50042 c$=mid$(cc$,i%,1):c%=asc(c$)
 50045 if c%=128 then c%=32: rem handle shifted space
 50050 if (c%<48 or c%>57) then if (c%<65 or c%>90) then if c%<>32 then 50100
 50060 if c%<>32 then ct$=ct$+c$:goto 50080
 50070 if len(ct$)>0 then gosub 50500
-50080 if cc%=9 then i=256
-50100 next i
+50080 if cc%=9 then 50110
+50100 i%=i%+1:if i%<=len(cc$) then 50042
 50110 pp%=cc%:co%=cc%:cc%=0:for i=0 to pp%-1
 50120 a$=cp$(i):t%=-1:if len(a$)<3 then 50155
 50130 for p=0 to tb%:for ii=0 to ms%:b$=cm$(p,ii)
@@ -313,12 +314,38 @@
 50500 rem detect chained commands
 50505 gosub 50600
 50510 if ct$<>"und" or cc%=0 then cp$(cc%)=ct$:ct$="":cc%=cc%+1:return
-50520 lc$=right$(cc$, len(cc$)-i):i=256:return
+50520 lc$=right$(cc$, len(cc$)-i%):i%=256:return
 
 50600 rem detect sie/es/ihr if needed
 50610 if len(lo$)=0 or len(ct$)>3 then return
 50620 a$=left$(ct$,2):if a$="es" or a$="ih" or a$="si" then ct$=lo$
 50630 return
+
+51000 rem modify input to match known words (fuzzy stuff...)
+51040 cc%=0:i%=1:cf$=""
+51042 c$=mid$(cc$,i%,1):c%=asc(c$)
+51045 if c%=128 then c%=32: rem handle shifted space
+51050 if (c%<48 or c%>57) then if (c%<65 or c%>90) then if c%<>32 then 51100
+51060 if c%<>32 then ct$=ct$+c$:goto 51080
+51070 rem if len(ct$)>0 then gosub 50500
+51080 if cc%=9 then 51110
+51100 i%=i%+1:if i%<=len(cc$) then 51042
+51110 p%=0
+51120 if il$(p%)=ct$ then cf$=cf$+ct$+" ":ct$="":goto 51900
+51130 a$=il$(p%):gosub 51920
+51140 if a$=ct$ then cf$=cf$+ct$+" ":ct$=""
+51900 if i%=len(cc$) then return
+51910 goto 51042
+
+51920 rem check for similarity
+51925 if len(ct$)<>len(a$) then return
+51930 dc%=0:p%=1
+51935 if mid$(ct$,p%,1)=mid$((a$,p%,1) then 51970
+51940 dc%=dc%+1
+51945 if dc%>2 or (dc%>1 and len(ct$)<=3) then return
+51950 ct$=a$:return
+51970 p%=p%+1:if p%<=len(ct$) then 51935
+51975 return
 
 52000 rem evaluate parsed command
 52005 rr%=0:rt%=0:ff%=0:sk%=0
@@ -560,7 +587,7 @@
 
 60000 rem init
 60002 print "Einen Moment..."
-60005 mx%=29:mr%=28:mi%=60:mc%=16:xo%=13:cb$=chr$(13)+"> ":lr%=0:mo%=36:ox%=6
+60005 mx%=29:mr%=28:mi%=60:mc%=16:xo%=13:cb$=chr$(13)+"> ":lr%=0:mo%=37:ox%=6
 60006 al$="alles":ms%=5:dim i,ii,p,pp,ad:fi$="save.dat":ba=49152:ad=ba
 60010 dim it$(60), il$(60), mv%(60), ti%: rem all items (mi%)
 60020 dim rd$(24), pl%, rd%: rem current room's description
@@ -580,35 +607,36 @@
 60140 dim dr$(9):for i=0 to 9:read dr$(i):next: rem direction strings
 60150 dim op%(13,10), op$(13,6), oc%: rem possible operations in a room (xo%) , ox%
 60160 dim od$(29), od%: rem operations applied (command ID_item 1_item_2) (mx%)
-60170 dim og%(36,10), og$(36,5), gc%: rem ops. on items in the inventory (mo%)
+60170 dim og%(37,10), og$(37,5), gc%: rem ops. on items in the inventory (mo%)
 60180 dim ac%(10): rem actions of the current operation
 60190 rl$="": rem human readable room name
 60200 po%=0: rem point (each unique operation increases them by 10)
 60900 return
 
 61000 rem replace semicolon with komma
-61010 sx$="":li=1:for i=1 to len(tx$)
-61020 if mid$(tx$,i,1)<>";" then 61040
-61030 gosub 61100:sx$=sx$+",":li=i+1
-61040 next:if li=1 then return: rem shortcut...
+61010 sx$="":li%=1:i%=1
+61020 if mid$(tx$,i%,1)<>";" then 61040
+61030 gosub 61100:sx$=sx$+",":li%=i%+1
+61040 i%=i%+1:if i%<=len(tx$) then 61020
+61045 if li%=1 then return: rem shortcut...
 61050 gosub 61100
 61060 tx$=sx$:return
 
 61100 rem add chunk
-61110 sx$=sx$+mid$(tx$,li,i-li):return
+61110 sx$=sx$+mid$(tx$,li%,i%-li%):return
 
 61200 rem load items
 61205 print "Lade Gegenstaende...";
-61206 ii=0:j%=0
+61206 ii%=0:j%=0
 61220 sx$="items.def":gosub 45100
-61230 gosub 61700:ii=ii+1
+61230 gosub 61700:ii%=ii%+1
 61250 id$="":i%=1
 61260 sx$=mid$(a$,i%,1):if sx$=";" then 61280
 61270 id$=id$+sx$:i%=i%+1:if i%<=len(a$) then 61260
-61280 ii=val(id$):tf$=mid$(a$,i%+1,1):mv%(ii)=1
-61290 if tf$="0" then mv%(ii)=0
-61300 it$(ii)=right$(a$,len(a$)-i%-2)
-61302 tx$=it$(ii):gosub 63100:il$(ii)=tx$:print".";
+61280 ii%=val(id$):tf$=mid$(a$,i%+1,1):mv%(ii%)=1
+61290 if tf$="0" then mv%(ii%)=0
+61300 it$(ii%)=right$(a$,len(a$)-i%-2)
+61302 tx$=it$(ii%):gosub 63100:il$(ii%)=tx$:print".";
 61305 gosub 61400
 61310 if st=64 then 61330
 61320 j%=j%+1:goto 61230
@@ -624,7 +652,7 @@
 61440 poke ad+p-1,asc(a$):next:p=p-1:if pp%<40 then poke ad+p,13:p=p+1
 61450 ad=ad+p:if ad>53179 then 42420
 61455 goto 61410
-61460 id%(ii)=sd-ba:ad=ad-1:poke sd,t%-1:return
+61460 id%(ii%)=sd-ba:ad=ad-1:poke sd,t%-1:return
 
 61500 rem load commands
 61510 print "Lade Befehle...";
@@ -717,13 +745,13 @@
 62950 next i:return
 
 63000 rem print human readable room name
-63005 i=peek(211):ii=peek(214):poke 646,13
+63005 i%=peek(211):ii%=peek(214):poke 646,13
 63010 for p=55296 to 55335:poke p, 13:next
 63015 for p=1024 to 1063:poke p, 160:next
 63030 print chr$(19);chr$(18);rl$;
 63035 a$=str$(po%):print spc(39-len(rl$)-len(a$));a$
 63036 print chr$(146):poke 646,15
-63040 poke 781,ii:poke 782,i:poke 783,0:sys 65520:return
+63040 poke 781,ii%:poke 782,i%:poke 783,0:sys 65520:return
 
 63100 rem convert tx$ to lower case
 63105 c%=len(tx$):if c%=0 then return
