@@ -6467,18 +6467,18 @@ def line_51940():
 def line_51945():
     global _zeroflag
     global VAR_DC_int
+    global CONST_55
     global _stack
     global Y_REG
     global B_REG
     global X_REG
     global CONST_6
-    global CONST_4
     global CONST_1
     global CONST_2
     global VAR_B_STRVAR
     B_REG=VAR_B_STRVAR
     LEN()
-    Y_REG=CONST_4
+    Y_REG=CONST_55
     X_REG= (-1 if X_REG<=Y_REG else 0)
     _stack.append(X_REG)
     Y_REG=CONST_2

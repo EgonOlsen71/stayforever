@@ -44,5 +44,8 @@
         <operation command="12" item="5" unique="1" remove_inv="" remove_room="" add_room="7" add_inv="" unlock=""
                    with_item="" remove_both="" portal_to="">Hauptsächlich Spiele und Krimskrams. Wenn du dich vor dem Regal bewegst, fängt eines der Spiele zu leuchten an!
         </operation>
+        <operation command="8" item="6" unique="0" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="44" remove_both="" portal_to="">Der Stuhl taugt nicht als Leiter!
+        </operation>
     </operations>
 </room>

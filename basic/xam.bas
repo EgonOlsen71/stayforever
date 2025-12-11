@@ -337,7 +337,7 @@
 51930 dc%=0:pp%=1
 51935 if mid$(b$,pp%,1)=mid$(a$,pp%,1) then 51970
 51940 dc%=dc%+1
-51945 if dc%>2 or (dc%>1 and len(b$)<=3) then return
+51945 if dc%>2 or (dc%>1 and len(b$)<=4) then return
 51970 pp%=pp%+1:if pp%<=len(b$) then 51935
 51975 t%=p%:return
 
