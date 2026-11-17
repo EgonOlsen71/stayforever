@@ -75,6 +75,44 @@ return;
 worker.postMessage([true, event.key, event.which]);
 event.preventDefault();
 };
+var mobileInput=document.getElementById('mobile-input');
+document.querySelector('.screen').addEventListener('click', function(event) {
+if (window.matchMedia('(pointer: coarse)').matches || event.pointerType==='touch') {
+mobileInput.focus();
+}
+});
+function sendMobileText() {
+var text=mobileInput.value;
+mobileInput.value='';
+for (var i=0; i<text.length; i++) {
+var key=text.charAt(i);
+worker.postMessage([true, key==='\n' ? 'Enter' : key, key==='\n' ? 13 : key.charCodeAt(0)]);
+}
+}
+mobileInput.addEventListener('keydown', function(event) {
+if (event.isComposing || event.keyCode===229) return;
+if (event.key==='Enter' || event.key==='Backspace') {
+worker.postMessage([true, event.key, event.key==='Enter' ? 13 : 8]);
+event.preventDefault();
+}
+});
+mobileInput.addEventListener('beforeinput', function(event) {
+if (event.isComposing || !event.cancelable) return;
+if (event.inputType==='insertLineBreak' || event.inputType==='insertParagraph' || event.inputType==='deleteContentBackward') {
+worker.postMessage([true, event.inputType==='deleteContentBackward' ? 'Backspace' : 'Enter', event.inputType==='deleteContentBackward' ? 8 : 13]);
+event.preventDefault();
+}
+});
+mobileInput.addEventListener('input', function(event) {
+if (event.isComposing) return;
+if (event.inputType==='deleteContentBackward') {
+worker.postMessage([true, 'Backspace', 8]);
+mobileInput.value='';
+} else {
+sendMobileText();
+}
+});
+mobileInput.addEventListener('compositionend', function() {setTimeout(sendMobileText, 0);});
 el.focus();
 }
 
@@ -100,7 +138,7 @@ el.focus();
   </div>
   <section class="display" aria-label="Game display">
     <div class="display-top"><span class="power-light" aria-hidden="true"></span><span>COMMODORE 1084S</span><span>S-VIDEO</span></div>
-    <div class="screen"><pre id="out"></pre><div tabindex="0" id="con" class="con"></div></div>
+    <div class="screen"><pre id="out"></pre><div tabindex="0" id="con" class="con"></div><textarea id="mobile-input" class="mobile-input" tabindex="-1" aria-label="Game keyboard input" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="send"></textarea></div>
   </section>
   <footer class="credit"><a target="_blank" href="https://github.com/EgonOlsen71/basicv2">Kompiliert mit MOSpeed</a></footer>
 </main>

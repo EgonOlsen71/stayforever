@@ -13805,7 +13805,7 @@ return;
 this.file.content.push.apply(this.file.content, String(text).split(''));
 }
 this.readString = function() {
-return this.readLine();
+return this.readLine().trimStart();
 }
 this.readLine = function() {
 if (this.file.missing) {
@@ -14291,7 +14291,7 @@ this.ARRAYSTORE_STRING = function() {
 this.G_REG[Math.floor(this.X_REG)] = this.A_REG;
 }
 this.STR = function() {
-this.A_REG=this.Y_REG.toString(10);
+this.A_REG=(this.Y_REG>=0 ? " " : "")+this.Y_REG.toString(10);
 }
 this.VAL = function() {
 this.X_REG=parseFloat((""+this.B_REG).replace(/ /g,""));
