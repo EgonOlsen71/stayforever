@@ -92,6 +92,7 @@ worker.postMessage([true, key==='\n' ? 'Enter' : key, key==='\n' ? 13 : key.char
 mobileInput.addEventListener('keydown', function(event) {
 if (event.isComposing || event.keyCode===229) return;
 if (event.key==='Enter' || event.key==='Backspace') {
+if (event.key==='Enter') sendMobileText();
 worker.postMessage([true, event.key, event.key==='Enter' ? 13 : 8]);
 event.preventDefault();
 }
@@ -99,6 +100,7 @@ event.preventDefault();
 mobileInput.addEventListener('beforeinput', function(event) {
 if (event.isComposing || !event.cancelable) return;
 if (event.inputType==='insertLineBreak' || event.inputType==='insertParagraph' || event.inputType==='deleteContentBackward') {
+if (event.inputType!=='deleteContentBackward') sendMobileText();
 worker.postMessage([true, event.inputType==='deleteContentBackward' ? 'Backspace' : 'Enter', event.inputType==='deleteContentBackward' ? 8 : 13]);
 event.preventDefault();
 }
