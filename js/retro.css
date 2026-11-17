@@ -1,0 +1,170 @@
+* { box-sizing: border-box; }
+html { min-height: 100%; }
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 24px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f7e9ce;
+  font-family: 'Courier New', monospace;
+  background:
+    radial-gradient(ellipse at 50% 35%, #363650 0, transparent 65%),
+    repeating-linear-gradient(90deg, transparent 0 39px, #ffffff04 40px),
+    #151622;
+}
+.cabinet {
+  width: 100%;
+  max-width: 880px;
+  min-width: 0;
+  padding: clamp(12px, 3vw, 26px);
+  border: 1px solid #74718a;
+  border-radius: 18px 18px 32px 32px;
+  background: linear-gradient(145deg, #494358, #282839 55%, #1d2030);
+  box-shadow: 0 2px 0 #aaa0aa inset, 0 -6px 0 #11131f inset,
+    0 32px 70px #090a13b3, 0 0 0 7px #10111a;
+}
+.cabinet-header, .display-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cabinet-header, .display-top {
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: .18em;
+}
+.cabinet-header { color: #b8b5c4; }
+.cabinet-header > span:last-child { color: #f7ba70; }
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #b8b5c4;
+  cursor: pointer;
+  letter-spacing: .12em;
+  white-space: nowrap;
+}
+.theme-toggle input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.theme-track {
+  position: relative;
+  width: 30px;
+  height: 16px;
+  flex: none;
+  border: 1px solid #a7a1b7;
+  border-radius: 20px;
+  background: #191c2a;
+}
+.theme-track::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ffe5a5;
+  transition: transform .16s ease;
+}
+.theme-toggle input:checked + .theme-track::after { transform: translateX(14px); }
+.theme-toggle input:focus-visible + .theme-track { outline: 2px solid #f7ba70; outline-offset: 3px; }
+.marquee { padding: 23px 0 20px; text-align: center; }
+.marquee small {
+  color: #7ee0d0;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: .32em;
+}
+.marquee h1 {
+  margin: 7px 0 4px;
+  color: #ffe5a5;
+  font-size: clamp(25px, 7vw, 43px);
+  line-height: 1;
+  letter-spacing: -.06em;
+  text-shadow: 3px 3px 0 #ba617c, 6px 6px 0 #4c577c;
+}
+.marquee h1 a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.marquee p {
+  margin: 12px 0 0;
+  color: #c2b8ca;
+  font-size: 10px;
+  letter-spacing: .19em;
+}
+.display {
+  padding: clamp(9px, 2.5vw, 17px);
+  border: 2px solid #777587;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #171a29, #333749 50%, #151827);
+  box-shadow: 0 3px 7px #ffffff20 inset, 0 8px 16px #080a16a6;
+}
+.display-top { color: #b3b3bd; padding: 0 2px 11px; }
+.power-light {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #81ffe2;
+  box-shadow: 0 0 0 2px #131822, 0 0 12px #81ffe2;
+}
+.screen {
+  position: relative;
+  min-width: 0;
+  font-size: clamp(8px, 1.8vw, 18px);
+  min-height: 25em;
+  padding: clamp(6px, 2vw, 14px);
+  overflow: auto;
+  border: 3px solid #080b19;
+  border-radius: 12px;
+  background: #171b38;
+  box-shadow: 0 0 0 2px #5b5e75, 0 0 35px #050918 inset;
+}
+.screen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background: repeating-linear-gradient(0deg, transparent 0 3px, #00000013 4px);
+}
+#out, .con {
+  margin: 0 auto;
+  box-sizing: content-box;
+  border: 2px solid #000;
+  line-height: 1;
+  color: #eee9ff;
+}
+#out {
+  width: 40em;
+  height: 25em;
+  overflow: auto;
+  font-family: petscii, monospace;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+#out:empty, #out:not(:empty) + .con { display: none; }
+.con {
+  display: block;
+  font-size: inherit;
+  width: 40em;
+}
+.con:focus, .con:focus-visible, #out:focus, #out:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+.credit {
+  margin-top: 16px;
+  color: #b8b5c4;
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-align: center;
+}
+.credit a { color: inherit; text-decoration: none; }
+.credit a:hover, .credit a:focus-visible { color: #f7ba70; text-decoration: underline; }
+@media (max-width: 380px) {
+  .theme-toggle > span:last-child { display: none; }
+}
